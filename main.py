@@ -11,6 +11,7 @@ from pydantic import BaseModel
 
 import pdfplumber
 from jd_analizer import analyze_text  # <— your new module
+from cv_analizer import extract_skills_from_file
 
 app = FastAPI()
 
@@ -35,31 +36,37 @@ async def analyze_jd(request: JDRequest):
     """
     entities = analyze_text(request.text)
     return {"entities": entities}
-
 @app.post("/upload-pdf/")
 async def upload_pdf(file: UploadFile = File(...)):
-    """
-    Upload a PDF, extract its text to a .txt file, and return the filename.
-    """
+    # Validate PDF
     if file.content_type != "application/pdf":
         raise HTTPException(400, "Only PDF files are supported.")
+
+    # Read and extract text
     content = await file.read()
     try:
         pdf = pdfplumber.open(BytesIO(content))
     except Exception as e:
         raise HTTPException(500, f"Failed to open PDF: {e}")
 
-    base_name = os.path.splitext(file.filename)[0]
+    base_name   = os.path.splitext(file.filename)[0]
     txt_filename = f"{base_name}.txt"
-    with open(txt_filename, "w", encoding="utf-8") as out_f:
+    txt_path     = Path(txt_filename)
+
+    with txt_path.open("w", encoding="utf-8") as out_f:
         for i, page in enumerate(pdf.pages, start=1):
             text = page.extract_text() or ""
             out_f.write(f"--- Page {i} ---\n{text}\n\n")
     pdf.close()
 
+    # Run the spaCy SKILL model on the extracted text
+    skill_data = extract_skills_from_file(str(txt_path))
+
+    # Return both the .txt filename and the skill results
     return JSONResponse({
-        "message": "Text extraction successful.",
-        "txt_file": txt_filename
+        "message":          "Text extraction and skill analysis successful.",
+        "txt_file":         txt_filename,
+        "skill_extraction": skill_data,
     })
 
 if __name__ == "__main__":
