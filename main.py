@@ -1,40 +1,62 @@
 # main.py
+
 import os
 from io import BytesIO
+from pathlib import Path
+
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+
 import pdfplumber
+from jd_analizer import analyze_text  # <— your new module
 
 app = FastAPI()
 
+# CORS setup (as before)
+origins = ["http://localhost:3000", "http://127.0.0.1:3000"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Pydantic model for JD analysis request
+class JDRequest(BaseModel):
+    text: str
+
+@app.post("/analyze-jd/")
+async def analyze_jd(request: JDRequest):
+    """
+    Analyze provided job description text and return detected entities.
+    """
+    entities = analyze_text(request.text)
+    return {"entities": entities}
+
 @app.post("/upload-pdf/")
 async def upload_pdf(file: UploadFile = File(...)):
-    # 1) Validate file type
+    """
+    Upload a PDF, extract its text to a .txt file, and return the filename.
+    """
     if file.content_type != "application/pdf":
-        raise HTTPException(status_code=400, detail="Only PDF files are supported.")
-    
-    # 2) Read into memory
+        raise HTTPException(400, "Only PDF files are supported.")
     content = await file.read()
-    
-    # 3) Open with pdfplumber
     try:
         pdf = pdfplumber.open(BytesIO(content))
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to open PDF: {e}")
-    
-    # 4) Prepare output filename
+        raise HTTPException(500, f"Failed to open PDF: {e}")
+
     base_name = os.path.splitext(file.filename)[0]
     txt_filename = f"{base_name}.txt"
-    
-    # 5) Extract text page by page
     with open(txt_filename, "w", encoding="utf-8") as out_f:
         for i, page in enumerate(pdf.pages, start=1):
             text = page.extract_text() or ""
-            out_f.write(f"--- Page {i} ---\n")
-            out_f.write(text + "\n\n")
+            out_f.write(f"--- Page {i} ---\n{text}\n\n")
     pdf.close()
-    
-    # 6) Return success
+
     return JSONResponse({
         "message": "Text extraction successful.",
         "txt_file": txt_filename

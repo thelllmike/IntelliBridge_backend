@@ -89,3 +89,5 @@ Desktop.ini
 
 # Optional: ignore generated text files
 # *.txt
+# All models directory
+/models/
