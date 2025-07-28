@@ -1,0 +1,6602 @@
+[
+  {
+    "skill": "React",
+    "question": "Which category best describes React?",
+    "options": [
+      "Front‑end framework",
+      "Back‑end framework",
+      "Security standard",
+      "Styling language"
+    ],
+    "correct_answer": "Front‑end framework"
+  },
+  {
+    "skill": "React",
+    "question": "Who primarily maintains React?",
+    "options": [
+      "Various",
+      "Corporate",
+      "Foundation",
+      "Independent"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "React",
+    "question": "In which year was React first released?",
+    "options": [
+      "1997",
+      "1999",
+      "1998",
+      "2000"
+    ],
+    "correct_answer": "1997"
+  },
+  {
+    "skill": "React",
+    "question": "What is a common file extension associated with React?",
+    "options": [
+      ".json",
+      NaN,
+      ".js",
+      ".yaml"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "React",
+    "question": "What is a primary use case of React?",
+    "options": [
+      "Working with front‑end framework",
+      "Working with security standard",
+      "Working with mobile framework",
+      "Working with testing framework"
+    ],
+    "correct_answer": "Working with front‑end framework"
+  },
+  {
+    "skill": "React",
+    "question": "Which command is commonly used to install or initialize React?",
+    "options": [
+      "apt-get install pkg",
+      NaN,
+      "brew install pkg",
+      "npm install react"
+    ],
+    "correct_answer": "npm install react"
+  },
+  {
+    "skill": "React",
+    "question": "What is the primary programming language associated with React?",
+    "options": [
+      "Swift",
+      "JavaScript",
+      "Python",
+      NaN
+    ],
+    "correct_answer": "JavaScript"
+  },
+  {
+    "skill": "React",
+    "question": "Which of these is a key feature of React?",
+    "options": [
+      "Component‑based UI",
+      "Event loop",
+      "Routing",
+      "Schema‑based queries"
+    ],
+    "correct_answer": "Component‑based UI"
+  },
+  {
+    "skill": "React",
+    "question": "Which of the following could be considered a competitor or alternative to React?",
+    "options": [
+      "GCP",
+      "SQLite",
+      "Vue",
+      "Bash"
+    ],
+    "correct_answer": "Vue"
+  },
+  {
+    "skill": "React",
+    "question": "Under which license is React primarily distributed?",
+    "options": [
+      "MIT",
+      "Public Domain",
+      "MPL‑2.0",
+      "Proprietary"
+    ],
+    "correct_answer": "MPL‑2.0"
+  },
+  {
+    "skill": "Python",
+    "question": "Which category best describes Python?",
+    "options": [
+      "Technology",
+      "Testing framework",
+      "Architecture style",
+      "Data library"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "Python",
+    "question": "Who primarily maintains Python?",
+    "options": [
+      "Community",
+      "Corporate",
+      "Various",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Python",
+    "question": "In which year was Python first released?",
+    "options": [
+      "2020",
+      "2019",
+      "2018",
+      "2021"
+    ],
+    "correct_answer": "2018"
+  },
+  {
+    "skill": "Python",
+    "question": "What is a common file extension associated with Python?",
+    "options": [
+      ".rs",
+      NaN,
+      ".css",
+      ".py"
+    ],
+    "correct_answer": ".py"
+  },
+  {
+    "skill": "Python",
+    "question": "What is a primary use case of Python?",
+    "options": [
+      "Working with devops tool",
+      "Working with technology",
+      "Working with back‑end runtime",
+      "Working with front‑end framework"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "Python",
+    "question": "Which command is commonly used to install or initialize Python?",
+    "options": [
+      "pip install package",
+      "apt-get install pkg",
+      NaN,
+      "brew install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Python",
+    "question": "What is the primary programming language associated with Python?",
+    "options": [
+      "TypeScript",
+      "Python",
+      "C++",
+      "C#"
+    ],
+    "correct_answer": "Python"
+  },
+  {
+    "skill": "Python",
+    "question": "Which of these is a key feature of Python?",
+    "options": [
+      "Event loop",
+      "Signed tokens",
+      "Model training",
+      "Feature X"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "Python",
+    "question": "Which of the following could be considered a competitor or alternative to Python?",
+    "options": [
+      "GraphQL",
+      "Scikit-Learn",
+      "TypeScript",
+      "Mocha"
+    ],
+    "correct_answer": "Scikit-Learn"
+  },
+  {
+    "skill": "Python",
+    "question": "Under which license is Python primarily distributed?",
+    "options": [
+      "Public Domain",
+      "BSD",
+      "MPL‑2.0",
+      "Proprietary"
+    ],
+    "correct_answer": "MPL‑2.0"
+  },
+  {
+    "skill": "Java",
+    "question": "Which category best describes Java?",
+    "options": [
+      "Testing framework",
+      "Front‑end framework",
+      "Technology",
+      "Markup language"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "Java",
+    "question": "Who primarily maintains Java?",
+    "options": [
+      "Various",
+      "Corporate",
+      "Community",
+      "Independent"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Java",
+    "question": "In which year was Java first released?",
+    "options": [
+      "2004",
+      "2003",
+      "2005",
+      "2001"
+    ],
+    "correct_answer": "2003"
+  },
+  {
+    "skill": "Java",
+    "question": "What is a common file extension associated with Java?",
+    "options": [
+      ".java",
+      ".css",
+      ".js",
+      ".rs"
+    ],
+    "correct_answer": ".java"
+  },
+  {
+    "skill": "Java",
+    "question": "What is a primary use case of Java?",
+    "options": [
+      "Working with technology",
+      "Working with security standard",
+      "Working with database",
+      "Working with networking protocol"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "Java",
+    "question": "Which command is commonly used to install or initialize Java?",
+    "options": [
+      "brew install pkg",
+      "npm install package",
+      "apt-get install pkg",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Java",
+    "question": "What is the primary programming language associated with Java?",
+    "options": [
+      "C#",
+      "C++",
+      "Java",
+      "Kotlin"
+    ],
+    "correct_answer": "Java"
+  },
+  {
+    "skill": "Java",
+    "question": "Which of these is a key feature of Java?",
+    "options": [
+      "Scalable compute",
+      "Token grant types",
+      "Native bridges",
+      "Feature X"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "Java",
+    "question": "Which of the following could be considered a competitor or alternative to Java?",
+    "options": [
+      "Rust",
+      "AWS",
+      "Flutter",
+      "RabbitMQ"
+    ],
+    "correct_answer": "RabbitMQ"
+  },
+  {
+    "skill": "Java",
+    "question": "Under which license is Java primarily distributed?",
+    "options": [
+      "BSD",
+      "Proprietary",
+      "Public Domain",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "Which category best describes JavaScript?",
+    "options": [
+      "Operating system",
+      "Technology",
+      "Back‑end runtime",
+      "Security protocol"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "Who primarily maintains JavaScript?",
+    "options": [
+      "Community",
+      "Various",
+      "Foundation",
+      "Independent"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "In which year was JavaScript first released?",
+    "options": [
+      "1992",
+      "1990",
+      "1987",
+      "1988"
+    ],
+    "correct_answer": "1990"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "What is a common file extension associated with JavaScript?",
+    "options": [
+      ".css",
+      ".py",
+      ".js",
+      NaN
+    ],
+    "correct_answer": ".js"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "What is a primary use case of JavaScript?",
+    "options": [
+      "Working with technology",
+      "Working with programming language",
+      "Working with testing framework",
+      "Working with networking protocol"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "Which command is commonly used to install or initialize JavaScript?",
+    "options": [
+      "brew install pkg",
+      "pip install package",
+      "npm install package",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "JavaScript",
+    "question": "What is the primary programming language associated with JavaScript?",
+    "options": [
+      "Kotlin",
+      "JavaScript",
+      "Swift",
+      "Go"
+    ],
+    "correct_answer": "JavaScript"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "Which of these is a key feature of JavaScript?",
+    "options": [
+      "Event loop",
+      "Feature X",
+      "Publish‑subscribe",
+      "Native bridges"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "Which of the following could be considered a competitor or alternative to JavaScript?",
+    "options": [
+      "Kubernetes",
+      "Jest",
+      "Kotlin",
+      "Python"
+    ],
+    "correct_answer": "Kubernetes"
+  },
+  {
+    "skill": "JavaScript",
+    "question": "Under which license is JavaScript primarily distributed?",
+    "options": [
+      "MIT",
+      "Proprietary",
+      "GPL‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "GPL‑2.0"
+  },
+  {
+    "skill": "C++",
+    "question": "Which category best describes C++?",
+    "options": [
+      "DevOps tool",
+      "Security standard",
+      "Technology",
+      "Cloud platform"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "C++",
+    "question": "Who primarily maintains C++?",
+    "options": [
+      "Independent",
+      "Foundation",
+      "Community",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "C++",
+    "question": "In which year was C++ first released?",
+    "options": [
+      "2007",
+      "2005",
+      "2003",
+      "2002"
+    ],
+    "correct_answer": "2005"
+  },
+  {
+    "skill": "C++",
+    "question": "What is a common file extension associated with C++?",
+    "options": [
+      ".yaml",
+      NaN,
+      ".cpp",
+      ".cs"
+    ],
+    "correct_answer": ".cpp"
+  },
+  {
+    "skill": "C++",
+    "question": "What is a primary use case of C++?",
+    "options": [
+      "Working with styling language",
+      "Working with front‑end framework",
+      "Working with programming language",
+      "Working with technology"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "C++",
+    "question": "Which command is commonly used to install or initialize C++?",
+    "options": [
+      NaN,
+      "apt-get install pkg",
+      "npm install package",
+      "pip install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "C++",
+    "question": "What is the primary programming language associated with C++?",
+    "options": [
+      NaN,
+      "C++",
+      "Python",
+      "Go"
+    ],
+    "correct_answer": "C++"
+  },
+  {
+    "skill": "C++",
+    "question": "Which of these is a key feature of C++?",
+    "options": [
+      "Event loop",
+      "Full‑duplex",
+      "Scalable compute",
+      "Feature X"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "C++",
+    "question": "Which of the following could be considered a competitor or alternative to C++?",
+    "options": [
+      "Django",
+      "Git",
+      "TypeScript",
+      "Next.js"
+    ],
+    "correct_answer": "TypeScript"
+  },
+  {
+    "skill": "C++",
+    "question": "Under which license is C++ primarily distributed?",
+    "options": [
+      "Public Domain",
+      "Proprietary",
+      "MPL‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "C#",
+    "question": "Which category best describes C#?",
+    "options": [
+      "Machine learning library",
+      "Back‑end runtime",
+      "Technology",
+      "Networking protocol"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "C#",
+    "question": "Who primarily maintains C#?",
+    "options": [
+      "Independent",
+      "Various",
+      "Corporate",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "C#",
+    "question": "In which year was C# first released?",
+    "options": [
+      "2010",
+      "2012",
+      "2011",
+      "2007"
+    ],
+    "correct_answer": "2010"
+  },
+  {
+    "skill": "C#",
+    "question": "What is a common file extension associated with C#?",
+    "options": [
+      ".py",
+      ".yaml",
+      ".cs",
+      ".js"
+    ],
+    "correct_answer": ".cs"
+  },
+  {
+    "skill": "C#",
+    "question": "What is a primary use case of C#?",
+    "options": [
+      "Working with mobile framework",
+      "Working with networking protocol",
+      "Working with back‑end runtime",
+      "Working with technology"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "C#",
+    "question": "Which command is commonly used to install or initialize C#?",
+    "options": [
+      "npm install package",
+      "apt-get install pkg",
+      "brew install pkg",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "C#",
+    "question": "What is the primary programming language associated with C#?",
+    "options": [
+      "C#",
+      NaN,
+      "Python",
+      "Swift"
+    ],
+    "correct_answer": "C#"
+  },
+  {
+    "skill": "C#",
+    "question": "Which of these is a key feature of C#?",
+    "options": [
+      "Model training",
+      "Feature X",
+      "Component‑based UI",
+      "Automation"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "C#",
+    "question": "Which of the following could be considered a competitor or alternative to C#?",
+    "options": [
+      "GCP",
+      "Angular",
+      "AWS",
+      "Java"
+    ],
+    "correct_answer": "Java"
+  },
+  {
+    "skill": "C#",
+    "question": "Under which license is C# primarily distributed?",
+    "options": [
+      "Proprietary",
+      "Apache‑2.0",
+      "GPL‑2.0",
+      "MIT"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "Go",
+    "question": "Which category best describes Go?",
+    "options": [
+      "Machine learning library",
+      "Back‑end framework",
+      "Security standard",
+      "Technology"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "Go",
+    "question": "Who primarily maintains Go?",
+    "options": [
+      "Community",
+      "Corporate",
+      "Various",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Go",
+    "question": "In which year was Go first released?",
+    "options": [
+      "2009",
+      "2011",
+      "2008",
+      "2006"
+    ],
+    "correct_answer": "2009"
+  },
+  {
+    "skill": "Go",
+    "question": "What is a common file extension associated with Go?",
+    "options": [
+      ".json",
+      ".go",
+      ".cs",
+      ".java"
+    ],
+    "correct_answer": ".go"
+  },
+  {
+    "skill": "Go",
+    "question": "What is a primary use case of Go?",
+    "options": [
+      "Working with database",
+      "Working with front‑end framework",
+      "Working with testing framework",
+      "Working with technology"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "Go",
+    "question": "Which command is commonly used to install or initialize Go?",
+    "options": [
+      NaN,
+      "pip install package",
+      "brew install pkg",
+      "npm install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Go",
+    "question": "What is the primary programming language associated with Go?",
+    "options": [
+      "Kotlin",
+      "Java",
+      "Go",
+      "Rust"
+    ],
+    "correct_answer": "Go"
+  },
+  {
+    "skill": "Go",
+    "question": "Which of these is a key feature of Go?",
+    "options": [
+      "Publish‑subscribe",
+      "Scalable compute",
+      "Data storage",
+      "Feature X"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "Go",
+    "question": "Which of the following could be considered a competitor or alternative to Go?",
+    "options": [
+      "PyTorch",
+      "JWT",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "correct_answer": "JWT"
+  },
+  {
+    "skill": "Go",
+    "question": "Under which license is Go primarily distributed?",
+    "options": [
+      "GPL‑2.0",
+      "Public Domain",
+      "MPL‑2.0",
+      "Proprietary"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "Rust",
+    "question": "Which category best describes Rust?",
+    "options": [
+      "Security standard",
+      "Database",
+      "Technology",
+      "Styling language"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "Rust",
+    "question": "Who primarily maintains Rust?",
+    "options": [
+      "Community",
+      "Various",
+      "Foundation",
+      "Independent"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Rust",
+    "question": "In which year was Rust first released?",
+    "options": [
+      "2019",
+      "2016",
+      "2020",
+      "2018"
+    ],
+    "correct_answer": "2019"
+  },
+  {
+    "skill": "Rust",
+    "question": "What is a common file extension associated with Rust?",
+    "options": [
+      ".json",
+      ".java",
+      ".cs",
+      ".rs"
+    ],
+    "correct_answer": ".rs"
+  },
+  {
+    "skill": "Rust",
+    "question": "What is a primary use case of Rust?",
+    "options": [
+      "Working with front‑end framework",
+      "Working with styling language",
+      "Working with technology",
+      "Working with back‑end runtime"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "Rust",
+    "question": "Which command is commonly used to install or initialize Rust?",
+    "options": [
+      "brew install pkg",
+      "npm install package",
+      "pip install package",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Rust",
+    "question": "What is the primary programming language associated with Rust?",
+    "options": [
+      "Rust",
+      "Python",
+      "JavaScript",
+      NaN
+    ],
+    "correct_answer": "Rust"
+  },
+  {
+    "skill": "Rust",
+    "question": "Which of these is a key feature of Rust?",
+    "options": [
+      "Feature X",
+      "Event loop",
+      "Native bridges",
+      "Cascade"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "Rust",
+    "question": "Which of the following could be considered a competitor or alternative to Rust?",
+    "options": [
+      "Go",
+      "FastAPI",
+      "Vue",
+      "Next.js"
+    ],
+    "correct_answer": "Go"
+  },
+  {
+    "skill": "Rust",
+    "question": "Under which license is Rust primarily distributed?",
+    "options": [
+      "MIT",
+      "GPL‑2.0",
+      "Apache‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "Swift",
+    "question": "Which category best describes Swift?",
+    "options": [
+      "Back‑end framework",
+      "Technology",
+      "Testing framework",
+      "Markup language"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "Swift",
+    "question": "Who primarily maintains Swift?",
+    "options": [
+      "Various",
+      "Corporate",
+      "Foundation",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Swift",
+    "question": "In which year was Swift first released?",
+    "options": [
+      "2014",
+      "2015",
+      "2013",
+      "2016"
+    ],
+    "correct_answer": "2016"
+  },
+  {
+    "skill": "Swift",
+    "question": "What is a common file extension associated with Swift?",
+    "options": [
+      ".sql",
+      ".html",
+      ".swift",
+      ".yaml"
+    ],
+    "correct_answer": ".swift"
+  },
+  {
+    "skill": "Swift",
+    "question": "What is a primary use case of Swift?",
+    "options": [
+      "Working with front‑end framework",
+      "Working with programming language",
+      "Working with networking protocol",
+      "Working with technology"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "Swift",
+    "question": "Which command is commonly used to install or initialize Swift?",
+    "options": [
+      "pip install package",
+      "npm install package",
+      "brew install pkg",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Swift",
+    "question": "What is the primary programming language associated with Swift?",
+    "options": [
+      "Swift",
+      "Kotlin",
+      "Java",
+      "Go"
+    ],
+    "correct_answer": "Swift"
+  },
+  {
+    "skill": "Swift",
+    "question": "Which of these is a key feature of Swift?",
+    "options": [
+      "Scalable compute",
+      "Feature X",
+      "Strong typing",
+      "Kernel"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "Swift",
+    "question": "Which of the following could be considered a competitor or alternative to Swift?",
+    "options": [
+      "Kafka",
+      "Microservices",
+      "Jenkins",
+      "CSS"
+    ],
+    "correct_answer": "Microservices"
+  },
+  {
+    "skill": "Swift",
+    "question": "Under which license is Swift primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "Public Domain",
+      "GPL‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "BSD"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "Which category best describes Kotlin?",
+    "options": [
+      "Front‑end framework",
+      "Markup language",
+      "Technology",
+      "Messaging system"
+    ],
+    "correct_answer": "Technology"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "Who primarily maintains Kotlin?",
+    "options": [
+      "Corporate",
+      "Various",
+      "Foundation",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "In which year was Kotlin first released?",
+    "options": [
+      "2011",
+      "2008",
+      "2007",
+      "2006"
+    ],
+    "correct_answer": "2008"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "What is a common file extension associated with Kotlin?",
+    "options": [
+      ".sql",
+      ".json",
+      ".kt",
+      ".yaml"
+    ],
+    "correct_answer": ".kt"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "What is a primary use case of Kotlin?",
+    "options": [
+      "Working with technology",
+      "Working with programming language",
+      "Working with testing framework",
+      "Working with database"
+    ],
+    "correct_answer": "Working with technology"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "Which command is commonly used to install or initialize Kotlin?",
+    "options": [
+      "brew install pkg",
+      "npm install package",
+      "pip install package",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Kotlin",
+    "question": "What is the primary programming language associated with Kotlin?",
+    "options": [
+      NaN,
+      "Python",
+      "JavaScript",
+      "Kotlin"
+    ],
+    "correct_answer": "Kotlin"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "Which of these is a key feature of Kotlin?",
+    "options": [
+      "Signed tokens",
+      "Assertions",
+      "Feature X",
+      "Publish‑subscribe"
+    ],
+    "correct_answer": "Feature X"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "Which of the following could be considered a competitor or alternative to Kotlin?",
+    "options": [
+      "Bash",
+      "GraphQL",
+      "Docker",
+      "Cypress"
+    ],
+    "correct_answer": "Bash"
+  },
+  {
+    "skill": "Kotlin",
+    "question": "Under which license is Kotlin primarily distributed?",
+    "options": [
+      "MIT",
+      "Proprietary",
+      "Apache‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "Angular",
+    "question": "Which category best describes Angular?",
+    "options": [
+      "Front‑end framework",
+      "Networking protocol",
+      "Database",
+      "Mobile framework"
+    ],
+    "correct_answer": "Front‑end framework"
+  },
+  {
+    "skill": "Angular",
+    "question": "Who primarily maintains Angular?",
+    "options": [
+      "Various",
+      "Corporate",
+      "Foundation",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Angular",
+    "question": "In which year was Angular first released?",
+    "options": [
+      "2006",
+      "2003",
+      "2007",
+      "2005"
+    ],
+    "correct_answer": "2006"
+  },
+  {
+    "skill": "Angular",
+    "question": "What is a common file extension associated with Angular?",
+    "options": [
+      NaN,
+      ".java",
+      ".css",
+      ".js"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Angular",
+    "question": "What is a primary use case of Angular?",
+    "options": [
+      "Working with networking protocol",
+      "Working with styling language",
+      "Working with messaging system",
+      "Working with front‑end framework"
+    ],
+    "correct_answer": "Working with front‑end framework"
+  },
+  {
+    "skill": "Angular",
+    "question": "Which command is commonly used to install or initialize Angular?",
+    "options": [
+      "apt-get install pkg",
+      NaN,
+      "npm install package",
+      "npm install @angular/cli"
+    ],
+    "correct_answer": "npm install @angular/cli"
+  },
+  {
+    "skill": "Angular",
+    "question": "What is the primary programming language associated with Angular?",
+    "options": [
+      "C++",
+      NaN,
+      "C#",
+      "JavaScript"
+    ],
+    "correct_answer": "JavaScript"
+  },
+  {
+    "skill": "Angular",
+    "question": "Which of these is a key feature of Angular?",
+    "options": [
+      "Data manipulation",
+      "Cascade",
+      "Publish‑subscribe",
+      "Component‑based UI"
+    ],
+    "correct_answer": "Component‑based UI"
+  },
+  {
+    "skill": "Angular",
+    "question": "Which of the following could be considered a competitor or alternative to Angular?",
+    "options": [
+      "Terraform",
+      "GitHub Actions",
+      "GCP",
+      "Vue"
+    ],
+    "correct_answer": "Terraform"
+  },
+  {
+    "skill": "Angular",
+    "question": "Under which license is Angular primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "Proprietary",
+      "GPL‑2.0",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "Vue",
+    "question": "Which category best describes Vue?",
+    "options": [
+      "Cloud platform",
+      "DevOps tool",
+      "Data library",
+      "Front‑end framework"
+    ],
+    "correct_answer": "Front‑end framework"
+  },
+  {
+    "skill": "Vue",
+    "question": "Who primarily maintains Vue?",
+    "options": [
+      "Various",
+      "Community",
+      "Independent",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Vue",
+    "question": "In which year was Vue first released?",
+    "options": [
+      "2011",
+      "2014",
+      "2013",
+      "2010"
+    ],
+    "correct_answer": "2011"
+  },
+  {
+    "skill": "Vue",
+    "question": "What is a common file extension associated with Vue?",
+    "options": [
+      ".json",
+      ".cs",
+      NaN,
+      ".css"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Vue",
+    "question": "What is a primary use case of Vue?",
+    "options": [
+      "Working with devops tool",
+      "Working with front‑end framework",
+      "Working with security standard",
+      "Working with networking protocol"
+    ],
+    "correct_answer": "Working with front‑end framework"
+  },
+  {
+    "skill": "Vue",
+    "question": "Which command is commonly used to install or initialize Vue?",
+    "options": [
+      "pip install package",
+      NaN,
+      "npm install vue",
+      "npm install package"
+    ],
+    "correct_answer": "npm install vue"
+  },
+  {
+    "skill": "Vue",
+    "question": "What is the primary programming language associated with Vue?",
+    "options": [
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "Swift"
+    ],
+    "correct_answer": "JavaScript"
+  },
+  {
+    "skill": "Vue",
+    "question": "Which of these is a key feature of Vue?",
+    "options": [
+      "Data manipulation",
+      "Full‑duplex",
+      "Component‑based UI",
+      "Command scripting"
+    ],
+    "correct_answer": "Component‑based UI"
+  },
+  {
+    "skill": "Vue",
+    "question": "Which of the following could be considered a competitor or alternative to Vue?",
+    "options": [
+      "MySQL",
+      "GitHub Actions",
+      "RabbitMQ",
+      "Go"
+    ],
+    "correct_answer": "GitHub Actions"
+  },
+  {
+    "skill": "Vue",
+    "question": "Under which license is Vue primarily distributed?",
+    "options": [
+      "Proprietary",
+      "GPL‑2.0",
+      "BSD",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "Svelte",
+    "question": "Which category best describes Svelte?",
+    "options": [
+      "Front‑end framework",
+      "Architecture style",
+      "Back‑end runtime",
+      "API technology"
+    ],
+    "correct_answer": "Front‑end framework"
+  },
+  {
+    "skill": "Svelte",
+    "question": "Who primarily maintains Svelte?",
+    "options": [
+      "Independent",
+      "Various",
+      "Foundation",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Svelte",
+    "question": "In which year was Svelte first released?",
+    "options": [
+      "1995",
+      "1997",
+      "1994",
+      "1992"
+    ],
+    "correct_answer": "1994"
+  },
+  {
+    "skill": "Svelte",
+    "question": "What is a common file extension associated with Svelte?",
+    "options": [
+      ".py",
+      ".json",
+      NaN,
+      ".java"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Svelte",
+    "question": "What is a primary use case of Svelte?",
+    "options": [
+      "Working with messaging system",
+      "Working with mobile framework",
+      "Working with front‑end framework",
+      "Working with networking protocol"
+    ],
+    "correct_answer": "Working with front‑end framework"
+  },
+  {
+    "skill": "Svelte",
+    "question": "Which command is commonly used to install or initialize Svelte?",
+    "options": [
+      "npm install svelte",
+      NaN,
+      "npm install package",
+      "pip install package"
+    ],
+    "correct_answer": "npm install svelte"
+  },
+  {
+    "skill": "Svelte",
+    "question": "What is the primary programming language associated with Svelte?",
+    "options": [
+      "Go",
+      "Python",
+      "Swift",
+      "JavaScript"
+    ],
+    "correct_answer": "JavaScript"
+  },
+  {
+    "skill": "Svelte",
+    "question": "Which of these is a key feature of Svelte?",
+    "options": [
+      "Semantic tags",
+      "Automation",
+      "Component‑based UI",
+      "Command scripting"
+    ],
+    "correct_answer": "Component‑based UI"
+  },
+  {
+    "skill": "Svelte",
+    "question": "Which of the following could be considered a competitor or alternative to Svelte?",
+    "options": [
+      "Flask",
+      "PostgreSQL",
+      "Jest",
+      "Pandas"
+    ],
+    "correct_answer": "PostgreSQL"
+  },
+  {
+    "skill": "Svelte",
+    "question": "Under which license is Svelte primarily distributed?",
+    "options": [
+      "Apache‑2.0",
+      "Public Domain",
+      "GPL‑2.0",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "Next.js",
+    "question": "Which category best describes Next.js?",
+    "options": [
+      "Mobile framework",
+      "Back‑end runtime",
+      "Front‑end framework",
+      "Cloud platform"
+    ],
+    "correct_answer": "Front‑end framework"
+  },
+  {
+    "skill": "Next.js",
+    "question": "Who primarily maintains Next.js?",
+    "options": [
+      "Independent",
+      "Various",
+      "Foundation",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Next.js",
+    "question": "In which year was Next.js first released?",
+    "options": [
+      "2011",
+      "2008",
+      "2010",
+      "2009"
+    ],
+    "correct_answer": "2008"
+  },
+  {
+    "skill": "Next.js",
+    "question": "What is a common file extension associated with Next.js?",
+    "options": [
+      NaN,
+      ".ts",
+      ".cs",
+      ".rs"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Next.js",
+    "question": "What is a primary use case of Next.js?",
+    "options": [
+      "Working with devops tool",
+      "Working with messaging system",
+      "Working with styling language",
+      "Working with front‑end framework"
+    ],
+    "correct_answer": "Working with front‑end framework"
+  },
+  {
+    "skill": "Next.js",
+    "question": "Which command is commonly used to install or initialize Next.js?",
+    "options": [
+      "brew install pkg",
+      "npm install package",
+      "npx create-next-app",
+      "apt-get install pkg"
+    ],
+    "correct_answer": "npx create-next-app"
+  },
+  {
+    "skill": "Next.js",
+    "question": "What is the primary programming language associated with Next.js?",
+    "options": [
+      "Python",
+      "Kotlin",
+      NaN,
+      "JavaScript"
+    ],
+    "correct_answer": "JavaScript"
+  },
+  {
+    "skill": "Next.js",
+    "question": "Which of these is a key feature of Next.js?",
+    "options": [
+      "Loose coupling",
+      "Model training",
+      "Component‑based UI",
+      "Full‑duplex"
+    ],
+    "correct_answer": "Component‑based UI"
+  },
+  {
+    "skill": "Next.js",
+    "question": "Which of the following could be considered a competitor or alternative to Next.js?",
+    "options": [
+      "Scikit-Learn",
+      "WebSockets",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "correct_answer": "Scikit-Learn"
+  },
+  {
+    "skill": "Next.js",
+    "question": "Under which license is Next.js primarily distributed?",
+    "options": [
+      "Proprietary",
+      "Public Domain",
+      "MPL‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "BSD"
+  },
+  {
+    "skill": "Express",
+    "question": "Which category best describes Express?",
+    "options": [
+      "Front‑end framework",
+      "Back‑end framework",
+      "Mobile framework",
+      "Networking protocol"
+    ],
+    "correct_answer": "Back‑end framework"
+  },
+  {
+    "skill": "Express",
+    "question": "Who primarily maintains Express?",
+    "options": [
+      "Various",
+      "Independent",
+      "Community",
+      "Corporate"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Express",
+    "question": "In which year was Express first released?",
+    "options": [
+      "2003",
+      "2000",
+      "2002",
+      "1999"
+    ],
+    "correct_answer": "2002"
+  },
+  {
+    "skill": "Express",
+    "question": "What is a common file extension associated with Express?",
+    "options": [
+      ".go",
+      NaN,
+      ".sql",
+      ".html"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Express",
+    "question": "What is a primary use case of Express?",
+    "options": [
+      "Working with back‑end framework",
+      "Working with programming language",
+      "Working with back‑end runtime",
+      "Working with security standard"
+    ],
+    "correct_answer": "Working with back‑end framework"
+  },
+  {
+    "skill": "Express",
+    "question": "Which command is commonly used to install or initialize Express?",
+    "options": [
+      "npm install package",
+      "npm install express",
+      "pip install package",
+      NaN
+    ],
+    "correct_answer": "npm install express"
+  },
+  {
+    "skill": "Express",
+    "question": "What is the primary programming language associated with Express?",
+    "options": [
+      NaN,
+      "Go",
+      "Rust",
+      "C++"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Express",
+    "question": "Which of these is a key feature of Express?",
+    "options": [
+      "Routing",
+      "Scalable compute",
+      "Data manipulation",
+      "Data storage"
+    ],
+    "correct_answer": "Routing"
+  },
+  {
+    "skill": "Express",
+    "question": "Which of the following could be considered a competitor or alternative to Express?",
+    "options": [
+      "MySQL",
+      "Jest",
+      "Redis",
+      "GitHub Actions"
+    ],
+    "correct_answer": "MySQL"
+  },
+  {
+    "skill": "Express",
+    "question": "Under which license is Express primarily distributed?",
+    "options": [
+      "Proprietary",
+      "Public Domain",
+      "BSD",
+      "GPL‑2.0"
+    ],
+    "correct_answer": "BSD"
+  },
+  {
+    "skill": "NestJS",
+    "question": "Which category best describes NestJS?",
+    "options": [
+      "Back‑end framework",
+      "Messaging system",
+      "API technology",
+      "Testing framework"
+    ],
+    "correct_answer": "Back‑end framework"
+  },
+  {
+    "skill": "NestJS",
+    "question": "Who primarily maintains NestJS?",
+    "options": [
+      "Community",
+      "Various",
+      "Corporate",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "NestJS",
+    "question": "In which year was NestJS first released?",
+    "options": [
+      "2011",
+      "2008",
+      "2014",
+      "2013"
+    ],
+    "correct_answer": "2011"
+  },
+  {
+    "skill": "NestJS",
+    "question": "What is a common file extension associated with NestJS?",
+    "options": [
+      ".sql",
+      NaN,
+      ".yaml",
+      ".rs"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "NestJS",
+    "question": "What is a primary use case of NestJS?",
+    "options": [
+      "Working with database",
+      "Working with styling language",
+      "Working with back‑end framework",
+      "Working with back‑end runtime"
+    ],
+    "correct_answer": "Working with back‑end framework"
+  },
+  {
+    "skill": "NestJS",
+    "question": "Which command is commonly used to install or initialize NestJS?",
+    "options": [
+      "pip install package",
+      "npm install package",
+      "brew install pkg",
+      "npm install @nestjs/cli"
+    ],
+    "correct_answer": "npm install @nestjs/cli"
+  },
+  {
+    "skill": "NestJS",
+    "question": "What is the primary programming language associated with NestJS?",
+    "options": [
+      "Go",
+      "JavaScript",
+      "JavaScript",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "NestJS",
+    "question": "Which of these is a key feature of NestJS?",
+    "options": [
+      "Publish‑subscribe",
+      "Signed tokens",
+      "Routing",
+      "Scalable compute"
+    ],
+    "correct_answer": "Routing"
+  },
+  {
+    "skill": "NestJS",
+    "question": "Which of the following could be considered a competitor or alternative to NestJS?",
+    "options": [
+      "Azure",
+      "Java",
+      "GCP",
+      "Rust"
+    ],
+    "correct_answer": "Java"
+  },
+  {
+    "skill": "NestJS",
+    "question": "Under which license is NestJS primarily distributed?",
+    "options": [
+      "MIT",
+      "BSD",
+      "MPL‑2.0",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "Spring",
+    "question": "Which category best describes Spring?",
+    "options": [
+      "Back‑end framework",
+      "Networking protocol",
+      "Front‑end framework",
+      "Programming language"
+    ],
+    "correct_answer": "Back‑end framework"
+  },
+  {
+    "skill": "Spring",
+    "question": "Who primarily maintains Spring?",
+    "options": [
+      "Community",
+      "Foundation",
+      "Independent",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Spring",
+    "question": "In which year was Spring first released?",
+    "options": [
+      "1993",
+      "1996",
+      "1994",
+      "1997"
+    ],
+    "correct_answer": "1994"
+  },
+  {
+    "skill": "Spring",
+    "question": "What is a common file extension associated with Spring?",
+    "options": [
+      ".ts",
+      ".go",
+      NaN,
+      ".rs"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Spring",
+    "question": "What is a primary use case of Spring?",
+    "options": [
+      "Working with styling language",
+      "Working with back‑end framework",
+      "Working with testing framework",
+      "Working with devops tool"
+    ],
+    "correct_answer": "Working with back‑end framework"
+  },
+  {
+    "skill": "Spring",
+    "question": "Which command is commonly used to install or initialize Spring?",
+    "options": [
+      "apt-get install pkg",
+      NaN,
+      "npm install package",
+      "pip install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Spring",
+    "question": "What is the primary programming language associated with Spring?",
+    "options": [
+      "Go",
+      "JavaScript",
+      NaN,
+      "JavaScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Spring",
+    "question": "Which of these is a key feature of Spring?",
+    "options": [
+      "Routing",
+      "Model training",
+      "Kernel",
+      "Command scripting"
+    ],
+    "correct_answer": "Routing"
+  },
+  {
+    "skill": "Spring",
+    "question": "Which of the following could be considered a competitor or alternative to Spring?",
+    "options": [
+      "Linux",
+      "Swift",
+      "React",
+      "Jest"
+    ],
+    "correct_answer": "Swift"
+  },
+  {
+    "skill": "Spring",
+    "question": "Under which license is Spring primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "BSD",
+      "Apache‑2.0",
+      "GPL‑2.0"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "Django",
+    "question": "Which category best describes Django?",
+    "options": [
+      "Front‑end framework",
+      "Markup language",
+      "Back‑end framework",
+      "Security protocol"
+    ],
+    "correct_answer": "Back‑end framework"
+  },
+  {
+    "skill": "Django",
+    "question": "Who primarily maintains Django?",
+    "options": [
+      "Community",
+      "Corporate",
+      "Foundation",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Django",
+    "question": "In which year was Django first released?",
+    "options": [
+      "2011",
+      "2005",
+      "2009",
+      "2008"
+    ],
+    "correct_answer": "2008"
+  },
+  {
+    "skill": "Django",
+    "question": "What is a common file extension associated with Django?",
+    "options": [
+      NaN,
+      ".css",
+      ".sql",
+      ".java"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Django",
+    "question": "What is a primary use case of Django?",
+    "options": [
+      "Working with testing framework",
+      "Working with back‑end framework",
+      "Working with back‑end runtime",
+      "Working with mobile framework"
+    ],
+    "correct_answer": "Working with back‑end framework"
+  },
+  {
+    "skill": "Django",
+    "question": "Which command is commonly used to install or initialize Django?",
+    "options": [
+      "pip install django",
+      "brew install pkg",
+      "npm install package",
+      "apt-get install pkg"
+    ],
+    "correct_answer": "pip install django"
+  },
+  {
+    "skill": "Django",
+    "question": "What is the primary programming language associated with Django?",
+    "options": [
+      "JavaScript",
+      "Rust",
+      NaN,
+      "Python"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Django",
+    "question": "Which of these is a key feature of Django?",
+    "options": [
+      "Cascade",
+      "Event loop",
+      "Model training",
+      "Routing"
+    ],
+    "correct_answer": "Routing"
+  },
+  {
+    "skill": "Django",
+    "question": "Which of the following could be considered a competitor or alternative to Django?",
+    "options": [
+      "FastAPI",
+      "C#",
+      "Microservices",
+      "Linux"
+    ],
+    "correct_answer": "C#"
+  },
+  {
+    "skill": "Django",
+    "question": "Under which license is Django primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "Proprietary",
+      "MIT",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "Flask",
+    "question": "Which category best describes Flask?",
+    "options": [
+      "Markup language",
+      "Back‑end framework",
+      "Messaging system",
+      "Front‑end framework"
+    ],
+    "correct_answer": "Back‑end framework"
+  },
+  {
+    "skill": "Flask",
+    "question": "Who primarily maintains Flask?",
+    "options": [
+      "Foundation",
+      "Community",
+      "Various",
+      "Corporate"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Flask",
+    "question": "In which year was Flask first released?",
+    "options": [
+      "2011",
+      "2005",
+      "2007",
+      "2008"
+    ],
+    "correct_answer": "2008"
+  },
+  {
+    "skill": "Flask",
+    "question": "What is a common file extension associated with Flask?",
+    "options": [
+      ".sql",
+      NaN,
+      ".go",
+      ".rs"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Flask",
+    "question": "What is a primary use case of Flask?",
+    "options": [
+      "Working with database",
+      "Working with testing framework",
+      "Working with back‑end framework",
+      "Working with programming language"
+    ],
+    "correct_answer": "Working with back‑end framework"
+  },
+  {
+    "skill": "Flask",
+    "question": "Which command is commonly used to install or initialize Flask?",
+    "options": [
+      "apt-get install pkg",
+      "pip install flask",
+      NaN,
+      "brew install pkg"
+    ],
+    "correct_answer": "pip install flask"
+  },
+  {
+    "skill": "Flask",
+    "question": "What is the primary programming language associated with Flask?",
+    "options": [
+      "C++",
+      "Java",
+      NaN,
+      "JavaScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Flask",
+    "question": "Which of these is a key feature of Flask?",
+    "options": [
+      "Routing",
+      "Cascade",
+      "Native bridges",
+      "Command scripting"
+    ],
+    "correct_answer": "Routing"
+  },
+  {
+    "skill": "Flask",
+    "question": "Which of the following could be considered a competitor or alternative to Flask?",
+    "options": [
+      "Svelte",
+      "Cypress",
+      "HTML",
+      "Git"
+    ],
+    "correct_answer": "Cypress"
+  },
+  {
+    "skill": "Flask",
+    "question": "Under which license is Flask primarily distributed?",
+    "options": [
+      "Public Domain",
+      "GPL‑2.0",
+      "MIT",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "GPL‑2.0"
+  },
+  {
+    "skill": "FastAPI",
+    "question": "Which category best describes FastAPI?",
+    "options": [
+      "Back‑end framework",
+      "Testing framework",
+      "Security standard",
+      "DevOps tool"
+    ],
+    "correct_answer": "Back‑end framework"
+  },
+  {
+    "skill": "FastAPI",
+    "question": "Who primarily maintains FastAPI?",
+    "options": [
+      "Independent",
+      "Corporate",
+      "Foundation",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "FastAPI",
+    "question": "In which year was FastAPI first released?",
+    "options": [
+      "2012",
+      "2013",
+      "2015",
+      "2010"
+    ],
+    "correct_answer": "2013"
+  },
+  {
+    "skill": "FastAPI",
+    "question": "What is a common file extension associated with FastAPI?",
+    "options": [
+      ".yaml",
+      ".cs",
+      ".go",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "FastAPI",
+    "question": "What is a primary use case of FastAPI?",
+    "options": [
+      "Working with mobile framework",
+      "Working with back‑end framework",
+      "Working with networking protocol",
+      "Working with programming language"
+    ],
+    "correct_answer": "Working with back‑end framework"
+  },
+  {
+    "skill": "FastAPI",
+    "question": "Which command is commonly used to install or initialize FastAPI?",
+    "options": [
+      "brew install pkg",
+      NaN,
+      "apt-get install pkg",
+      "pip install fastapi"
+    ],
+    "correct_answer": "pip install fastapi"
+  },
+  {
+    "skill": "FastAPI",
+    "question": "What is the primary programming language associated with FastAPI?",
+    "options": [
+      "C#",
+      NaN,
+      "Go",
+      "Kotlin"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "FastAPI",
+    "question": "Which of these is a key feature of FastAPI?",
+    "options": [
+      "Routing",
+      "Semantic tags",
+      "Component‑based UI",
+      "Scalable compute"
+    ],
+    "correct_answer": "Routing"
+  },
+  {
+    "skill": "FastAPI",
+    "question": "Which of the following could be considered a competitor or alternative to FastAPI?",
+    "options": [
+      "Terraform",
+      "PostgreSQL",
+      "Swift",
+      "CircleCI"
+    ],
+    "correct_answer": "Terraform"
+  },
+  {
+    "skill": "FastAPI",
+    "question": "Under which license is FastAPI primarily distributed?",
+    "options": [
+      "Apache‑2.0",
+      "GPL‑2.0",
+      "Proprietary",
+      "MIT"
+    ],
+    "correct_answer": "MIT"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "Which category best describes TensorFlow?",
+    "options": [
+      "Cloud platform",
+      "Mobile framework",
+      "Machine learning library",
+      "Back‑end runtime"
+    ],
+    "correct_answer": "Machine learning library"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "Who primarily maintains TensorFlow?",
+    "options": [
+      "Independent",
+      "Community",
+      "Various",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "In which year was TensorFlow first released?",
+    "options": [
+      "2009",
+      "2015",
+      "2014",
+      "2012"
+    ],
+    "correct_answer": "2012"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "What is a common file extension associated with TensorFlow?",
+    "options": [
+      ".css",
+      ".json",
+      ".java",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "What is a primary use case of TensorFlow?",
+    "options": [
+      "Working with machine learning library",
+      "Working with testing framework",
+      "Working with security standard",
+      "Working with programming language"
+    ],
+    "correct_answer": "Working with machine learning library"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "Which command is commonly used to install or initialize TensorFlow?",
+    "options": [
+      "pip install tensorflow",
+      "brew install pkg",
+      "npm install package",
+      "apt-get install pkg"
+    ],
+    "correct_answer": "pip install tensorflow"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "What is the primary programming language associated with TensorFlow?",
+    "options": [
+      "Rust",
+      NaN,
+      "Python",
+      "Go"
+    ],
+    "correct_answer": "Python"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "Which of these is a key feature of TensorFlow?",
+    "options": [
+      "Loose coupling",
+      "Model training",
+      "Command scripting",
+      "Semantic tags"
+    ],
+    "correct_answer": "Model training"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "Which of the following could be considered a competitor or alternative to TensorFlow?",
+    "options": [
+      "Git",
+      "PostgreSQL",
+      "PyTorch",
+      "Terraform"
+    ],
+    "correct_answer": "Git"
+  },
+  {
+    "skill": "TensorFlow",
+    "question": "Under which license is TensorFlow primarily distributed?",
+    "options": [
+      "GPL‑2.0",
+      "Proprietary",
+      "Public Domain",
+      "MIT"
+    ],
+    "correct_answer": "GPL‑2.0"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "Which category best describes PyTorch?",
+    "options": [
+      "Security protocol",
+      "Front‑end framework",
+      "API technology",
+      "Machine learning library"
+    ],
+    "correct_answer": "Machine learning library"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "Who primarily maintains PyTorch?",
+    "options": [
+      "Various",
+      "Community",
+      "Independent",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "In which year was PyTorch first released?",
+    "options": [
+      "1987",
+      "1990",
+      "1993",
+      "1992"
+    ],
+    "correct_answer": "1990"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "What is a common file extension associated with PyTorch?",
+    "options": [
+      ".cs",
+      ".py",
+      ".java",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "PyTorch",
+    "question": "What is a primary use case of PyTorch?",
+    "options": [
+      "Working with machine learning library",
+      "Working with networking protocol",
+      "Working with devops tool",
+      "Working with front‑end framework"
+    ],
+    "correct_answer": "Working with machine learning library"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "Which command is commonly used to install or initialize PyTorch?",
+    "options": [
+      "pip install package",
+      "pip install torch",
+      "npm install package",
+      "apt-get install pkg"
+    ],
+    "correct_answer": "pip install torch"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "What is the primary programming language associated with PyTorch?",
+    "options": [
+      "Swift",
+      "JavaScript",
+      "JavaScript",
+      "Python"
+    ],
+    "correct_answer": "Python"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "Which of these is a key feature of PyTorch?",
+    "options": [
+      "Automation",
+      "Full‑duplex",
+      "Command scripting",
+      "Model training"
+    ],
+    "correct_answer": "Model training"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "Which of the following could be considered a competitor or alternative to PyTorch?",
+    "options": [
+      "JavaScript",
+      "JWT",
+      "Java",
+      "Git"
+    ],
+    "correct_answer": "JWT"
+  },
+  {
+    "skill": "PyTorch",
+    "question": "Under which license is PyTorch primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "MIT",
+      "Proprietary",
+      "BSD"
+    ],
+    "correct_answer": "MPL‑2.0"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "Which category best describes Scikit-Learn?",
+    "options": [
+      "Machine learning library",
+      "Database",
+      "Mobile framework",
+      "Operating system"
+    ],
+    "correct_answer": "Machine learning library"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "Who primarily maintains Scikit-Learn?",
+    "options": [
+      "Independent",
+      "Various",
+      "Foundation",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "In which year was Scikit-Learn first released?",
+    "options": [
+      "2000",
+      "1998",
+      "2002",
+      "2003"
+    ],
+    "correct_answer": "2000"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "What is a common file extension associated with Scikit-Learn?",
+    "options": [
+      NaN,
+      ".ts",
+      ".js",
+      ".yaml"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "What is a primary use case of Scikit-Learn?",
+    "options": [
+      "Working with styling language",
+      "Working with devops tool",
+      "Working with security standard",
+      "Working with machine learning library"
+    ],
+    "correct_answer": "Working with machine learning library"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "Which command is commonly used to install or initialize Scikit-Learn?",
+    "options": [
+      "apt-get install pkg",
+      "pip install scikit-learn",
+      "npm install package",
+      NaN
+    ],
+    "correct_answer": "pip install scikit-learn"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "What is the primary programming language associated with Scikit-Learn?",
+    "options": [
+      NaN,
+      "Swift",
+      "Python",
+      "JavaScript"
+    ],
+    "correct_answer": "Python"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "Which of these is a key feature of Scikit-Learn?",
+    "options": [
+      "Model training",
+      "Token grant types",
+      "Assertions",
+      "Loose coupling"
+    ],
+    "correct_answer": "Model training"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "Which of the following could be considered a competitor or alternative to Scikit-Learn?",
+    "options": [
+      "Java",
+      "NestJS",
+      "RabbitMQ",
+      "Jenkins"
+    ],
+    "correct_answer": "RabbitMQ"
+  },
+  {
+    "skill": "Scikit-Learn",
+    "question": "Under which license is Scikit-Learn primarily distributed?",
+    "options": [
+      "Proprietary",
+      "BSD",
+      "Apache‑2.0",
+      "GPL‑2.0"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "NumPy",
+    "question": "Which category best describes NumPy?",
+    "options": [
+      "Cloud platform",
+      "Front‑end framework",
+      "Data library",
+      "Markup language"
+    ],
+    "correct_answer": "Data library"
+  },
+  {
+    "skill": "NumPy",
+    "question": "Who primarily maintains NumPy?",
+    "options": [
+      "Community",
+      "Corporate",
+      "Independent",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "NumPy",
+    "question": "In which year was NumPy first released?",
+    "options": [
+      "2014",
+      "2013",
+      "2016",
+      "2015"
+    ],
+    "correct_answer": "2014"
+  },
+  {
+    "skill": "NumPy",
+    "question": "What is a common file extension associated with NumPy?",
+    "options": [
+      ".js",
+      ".ts",
+      ".go",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "NumPy",
+    "question": "What is a primary use case of NumPy?",
+    "options": [
+      "Working with data library",
+      "Working with database",
+      "Working with front‑end framework",
+      "Working with mobile framework"
+    ],
+    "correct_answer": "Working with data library"
+  },
+  {
+    "skill": "NumPy",
+    "question": "Which command is commonly used to install or initialize NumPy?",
+    "options": [
+      "brew install pkg",
+      "pip install package",
+      "apt-get install pkg",
+      "pip install numpy"
+    ],
+    "correct_answer": "pip install numpy"
+  },
+  {
+    "skill": "NumPy",
+    "question": "What is the primary programming language associated with NumPy?",
+    "options": [
+      "Kotlin",
+      "JavaScript",
+      NaN,
+      "Python"
+    ],
+    "correct_answer": "Python"
+  },
+  {
+    "skill": "NumPy",
+    "question": "Which of these is a key feature of NumPy?",
+    "options": [
+      "Schema‑based queries",
+      "Full‑duplex",
+      "Publish‑subscribe",
+      "Data manipulation"
+    ],
+    "correct_answer": "Data manipulation"
+  },
+  {
+    "skill": "NumPy",
+    "question": "Which of the following could be considered a competitor or alternative to NumPy?",
+    "options": [
+      "FastAPI",
+      "MySQL",
+      "Selenium",
+      "Express"
+    ],
+    "correct_answer": "Selenium"
+  },
+  {
+    "skill": "NumPy",
+    "question": "Under which license is NumPy primarily distributed?",
+    "options": [
+      "BSD",
+      "Public Domain",
+      "Apache‑2.0",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "Pandas",
+    "question": "Which category best describes Pandas?",
+    "options": [
+      "DevOps tool",
+      "Architecture style",
+      "Data library",
+      "Operating system"
+    ],
+    "correct_answer": "Data library"
+  },
+  {
+    "skill": "Pandas",
+    "question": "Who primarily maintains Pandas?",
+    "options": [
+      "Independent",
+      "Corporate",
+      "Community",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Pandas",
+    "question": "In which year was Pandas first released?",
+    "options": [
+      "2014",
+      "2016",
+      "2012",
+      "2011"
+    ],
+    "correct_answer": "2014"
+  },
+  {
+    "skill": "Pandas",
+    "question": "What is a common file extension associated with Pandas?",
+    "options": [
+      ".js",
+      ".html",
+      ".sql",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Pandas",
+    "question": "What is a primary use case of Pandas?",
+    "options": [
+      "Working with styling language",
+      "Working with back‑end runtime",
+      "Working with data library",
+      "Working with security standard"
+    ],
+    "correct_answer": "Working with data library"
+  },
+  {
+    "skill": "Pandas",
+    "question": "Which command is commonly used to install or initialize Pandas?",
+    "options": [
+      "apt-get install pkg",
+      "pip install pandas",
+      "npm install package",
+      NaN
+    ],
+    "correct_answer": "pip install pandas"
+  },
+  {
+    "skill": "Pandas",
+    "question": "What is the primary programming language associated with Pandas?",
+    "options": [
+      "TypeScript",
+      NaN,
+      "Python",
+      "Go"
+    ],
+    "correct_answer": "Python"
+  },
+  {
+    "skill": "Pandas",
+    "question": "Which of these is a key feature of Pandas?",
+    "options": [
+      "Schema‑based queries",
+      "Data manipulation",
+      "Cascade",
+      "Kernel"
+    ],
+    "correct_answer": "Data manipulation"
+  },
+  {
+    "skill": "Pandas",
+    "question": "Which of the following could be considered a competitor or alternative to Pandas?",
+    "options": [
+      "Rust",
+      "GCP",
+      "Ansible",
+      "Vue"
+    ],
+    "correct_answer": "GCP"
+  },
+  {
+    "skill": "Pandas",
+    "question": "Under which license is Pandas primarily distributed?",
+    "options": [
+      "MIT",
+      "BSD",
+      "Apache‑2.0",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "MySQL",
+    "question": "Which category best describes MySQL?",
+    "options": [
+      "Database",
+      "Security protocol",
+      "Front‑end framework",
+      "Styling language"
+    ],
+    "correct_answer": "Database"
+  },
+  {
+    "skill": "MySQL",
+    "question": "Who primarily maintains MySQL?",
+    "options": [
+      "Foundation",
+      "Various",
+      "Corporate",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "MySQL",
+    "question": "In which year was MySQL first released?",
+    "options": [
+      "2006",
+      "2007",
+      "2004",
+      "2005"
+    ],
+    "correct_answer": "2007"
+  },
+  {
+    "skill": "MySQL",
+    "question": "What is a common file extension associated with MySQL?",
+    "options": [
+      ".rs",
+      ".html",
+      ".sql",
+      NaN
+    ],
+    "correct_answer": ".sql"
+  },
+  {
+    "skill": "MySQL",
+    "question": "What is a primary use case of MySQL?",
+    "options": [
+      "Working with programming language",
+      "Working with back‑end runtime",
+      "Working with devops tool",
+      "Working with database"
+    ],
+    "correct_answer": "Working with database"
+  },
+  {
+    "skill": "MySQL",
+    "question": "Which command is commonly used to install or initialize MySQL?",
+    "options": [
+      NaN,
+      "pip install package",
+      "brew install pkg",
+      "npm install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "MySQL",
+    "question": "What is the primary programming language associated with MySQL?",
+    "options": [
+      "Swift",
+      "TypeScript",
+      "Python",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "MySQL",
+    "question": "Which of these is a key feature of MySQL?",
+    "options": [
+      "Loose coupling",
+      "Data manipulation",
+      "Data storage",
+      "Native bridges"
+    ],
+    "correct_answer": "Data storage"
+  },
+  {
+    "skill": "MySQL",
+    "question": "Which of the following could be considered a competitor or alternative to MySQL?",
+    "options": [
+      "Pandas",
+      "NumPy",
+      "CircleCI",
+      "Java"
+    ],
+    "correct_answer": "CircleCI"
+  },
+  {
+    "skill": "MySQL",
+    "question": "Under which license is MySQL primarily distributed?",
+    "options": [
+      "Proprietary",
+      "MIT",
+      "MPL‑2.0",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "MIT"
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "Which category best describes PostgreSQL?",
+    "options": [
+      "Networking protocol",
+      "Database",
+      "Data library",
+      "Shell"
+    ],
+    "correct_answer": "Database"
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "Who primarily maintains PostgreSQL?",
+    "options": [
+      "Independent",
+      "Foundation",
+      "Various",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "In which year was PostgreSQL first released?",
+    "options": [
+      "2006",
+      "2007",
+      "2005",
+      "2004"
+    ],
+    "correct_answer": "2007"
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "What is a common file extension associated with PostgreSQL?",
+    "options": [
+      ".js",
+      ".cs",
+      ".sql",
+      ".java"
+    ],
+    "correct_answer": ".sql"
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "What is a primary use case of PostgreSQL?",
+    "options": [
+      "Working with devops tool",
+      "Working with security standard",
+      "Working with database",
+      "Working with testing framework"
+    ],
+    "correct_answer": "Working with database"
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "Which command is commonly used to install or initialize PostgreSQL?",
+    "options": [
+      "brew install pkg",
+      "npm install package",
+      NaN,
+      "apt-get install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "What is the primary programming language associated with PostgreSQL?",
+    "options": [
+      "Java",
+      "TypeScript",
+      NaN,
+      "Python"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "Which of these is a key feature of PostgreSQL?",
+    "options": [
+      "Event loop",
+      "Scalable compute",
+      "Data storage",
+      "Routing"
+    ],
+    "correct_answer": "Data storage"
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "Which of the following could be considered a competitor or alternative to PostgreSQL?",
+    "options": [
+      "Spring",
+      "MongoDB",
+      "WebSockets",
+      "Rust"
+    ],
+    "correct_answer": "WebSockets"
+  },
+  {
+    "skill": "PostgreSQL",
+    "question": "Under which license is PostgreSQL primarily distributed?",
+    "options": [
+      "Public Domain",
+      "Proprietary",
+      "MPL‑2.0",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "MongoDB",
+    "question": "Which category best describes MongoDB?",
+    "options": [
+      "Operating system",
+      "Database",
+      "Machine learning library",
+      "Programming language"
+    ],
+    "correct_answer": "Database"
+  },
+  {
+    "skill": "MongoDB",
+    "question": "Who primarily maintains MongoDB?",
+    "options": [
+      "Various",
+      "Corporate",
+      "Independent",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "MongoDB",
+    "question": "In which year was MongoDB first released?",
+    "options": [
+      "1992",
+      "1989",
+      "1995",
+      "1994"
+    ],
+    "correct_answer": "1992"
+  },
+  {
+    "skill": "MongoDB",
+    "question": "What is a common file extension associated with MongoDB?",
+    "options": [
+      ".json",
+      ".go",
+      ".sql",
+      ".ts"
+    ],
+    "correct_answer": ".sql"
+  },
+  {
+    "skill": "MongoDB",
+    "question": "What is a primary use case of MongoDB?",
+    "options": [
+      "Working with security standard",
+      "Working with messaging system",
+      "Working with testing framework",
+      "Working with database"
+    ],
+    "correct_answer": "Working with database"
+  },
+  {
+    "skill": "MongoDB",
+    "question": "Which command is commonly used to install or initialize MongoDB?",
+    "options": [
+      "apt-get install pkg",
+      NaN,
+      "npm install package",
+      "pip install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "MongoDB",
+    "question": "What is the primary programming language associated with MongoDB?",
+    "options": [
+      "Go",
+      "JavaScript",
+      NaN,
+      "Python"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "MongoDB",
+    "question": "Which of these is a key feature of MongoDB?",
+    "options": [
+      "Semantic tags",
+      "Model training",
+      "Routing",
+      "Data storage"
+    ],
+    "correct_answer": "Data storage"
+  },
+  {
+    "skill": "MongoDB",
+    "question": "Which of the following could be considered a competitor or alternative to MongoDB?",
+    "options": [
+      "NumPy",
+      "C++",
+      "Rust",
+      "Kotlin"
+    ],
+    "correct_answer": "Kotlin"
+  },
+  {
+    "skill": "MongoDB",
+    "question": "Under which license is MongoDB primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "GPL‑2.0",
+      "MIT",
+      "Proprietary"
+    ],
+    "correct_answer": "MIT"
+  },
+  {
+    "skill": "Redis",
+    "question": "Which category best describes Redis?",
+    "options": [
+      "Database",
+      "Machine learning library",
+      "API technology",
+      "Markup language"
+    ],
+    "correct_answer": "Database"
+  },
+  {
+    "skill": "Redis",
+    "question": "Who primarily maintains Redis?",
+    "options": [
+      "Corporate",
+      "Community",
+      "Independent",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Redis",
+    "question": "In which year was Redis first released?",
+    "options": [
+      "1998",
+      "1995",
+      "1996",
+      "1993"
+    ],
+    "correct_answer": "1995"
+  },
+  {
+    "skill": "Redis",
+    "question": "What is a common file extension associated with Redis?",
+    "options": [
+      ".sql",
+      ".rs",
+      ".js",
+      ".py"
+    ],
+    "correct_answer": ".sql"
+  },
+  {
+    "skill": "Redis",
+    "question": "What is a primary use case of Redis?",
+    "options": [
+      "Working with database",
+      "Working with messaging system",
+      "Working with programming language",
+      "Working with back‑end runtime"
+    ],
+    "correct_answer": "Working with database"
+  },
+  {
+    "skill": "Redis",
+    "question": "Which command is commonly used to install or initialize Redis?",
+    "options": [
+      "pip install package",
+      NaN,
+      "npm install package",
+      "apt-get install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Redis",
+    "question": "What is the primary programming language associated with Redis?",
+    "options": [
+      "Java",
+      "Rust",
+      "Kotlin",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Redis",
+    "question": "Which of these is a key feature of Redis?",
+    "options": [
+      "Routing",
+      "Data storage",
+      "Publish‑subscribe",
+      "Strong typing"
+    ],
+    "correct_answer": "Data storage"
+  },
+  {
+    "skill": "Redis",
+    "question": "Which of the following could be considered a competitor or alternative to Redis?",
+    "options": [
+      "GitHub Actions",
+      "Cypress",
+      "FastAPI",
+      "TensorFlow"
+    ],
+    "correct_answer": "TensorFlow"
+  },
+  {
+    "skill": "Redis",
+    "question": "Under which license is Redis primarily distributed?",
+    "options": [
+      "Public Domain",
+      "Proprietary",
+      "Apache‑2.0",
+      "GPL‑2.0"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "SQLite",
+    "question": "Which category best describes SQLite?",
+    "options": [
+      "Testing framework",
+      "Machine learning library",
+      "Operating system",
+      "Database"
+    ],
+    "correct_answer": "Database"
+  },
+  {
+    "skill": "SQLite",
+    "question": "Who primarily maintains SQLite?",
+    "options": [
+      "Corporate",
+      "Independent",
+      "Foundation",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "SQLite",
+    "question": "In which year was SQLite first released?",
+    "options": [
+      "2003",
+      "1999",
+      "2001",
+      "2000"
+    ],
+    "correct_answer": "2001"
+  },
+  {
+    "skill": "SQLite",
+    "question": "What is a common file extension associated with SQLite?",
+    "options": [
+      ".cs",
+      ".sql",
+      ".rs",
+      ".go"
+    ],
+    "correct_answer": ".sql"
+  },
+  {
+    "skill": "SQLite",
+    "question": "What is a primary use case of SQLite?",
+    "options": [
+      "Working with mobile framework",
+      "Working with networking protocol",
+      "Working with front‑end framework",
+      "Working with database"
+    ],
+    "correct_answer": "Working with database"
+  },
+  {
+    "skill": "SQLite",
+    "question": "Which command is commonly used to install or initialize SQLite?",
+    "options": [
+      NaN,
+      "apt-get install pkg",
+      "pip install package",
+      "brew install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "SQLite",
+    "question": "What is the primary programming language associated with SQLite?",
+    "options": [
+      "C#",
+      NaN,
+      "Kotlin",
+      "Java"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "SQLite",
+    "question": "Which of these is a key feature of SQLite?",
+    "options": [
+      "Model training",
+      "Schema‑based queries",
+      "Data storage",
+      "Scalable compute"
+    ],
+    "correct_answer": "Data storage"
+  },
+  {
+    "skill": "SQLite",
+    "question": "Which of the following could be considered a competitor or alternative to SQLite?",
+    "options": [
+      "Linux",
+      "React",
+      "PyTorch",
+      "Flutter"
+    ],
+    "correct_answer": "Flutter"
+  },
+  {
+    "skill": "SQLite",
+    "question": "Under which license is SQLite primarily distributed?",
+    "options": [
+      "Public Domain",
+      "GPL‑2.0",
+      "Apache‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "Docker",
+    "question": "Which category best describes Docker?",
+    "options": [
+      "Mobile framework",
+      "Testing framework",
+      "DevOps tool",
+      "Technology"
+    ],
+    "correct_answer": "DevOps tool"
+  },
+  {
+    "skill": "Docker",
+    "question": "Who primarily maintains Docker?",
+    "options": [
+      "Independent",
+      "Corporate",
+      "Foundation",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Docker",
+    "question": "In which year was Docker first released?",
+    "options": [
+      "2014",
+      "2013",
+      "2011",
+      "2017"
+    ],
+    "correct_answer": "2014"
+  },
+  {
+    "skill": "Docker",
+    "question": "What is a common file extension associated with Docker?",
+    "options": [
+      ".yml",
+      ".js",
+      ".rs",
+      ".go"
+    ],
+    "correct_answer": ".yml"
+  },
+  {
+    "skill": "Docker",
+    "question": "What is a primary use case of Docker?",
+    "options": [
+      "Working with styling language",
+      "Working with testing framework",
+      "Working with networking protocol",
+      "Working with devops tool"
+    ],
+    "correct_answer": "Working with devops tool"
+  },
+  {
+    "skill": "Docker",
+    "question": "Which command is commonly used to install or initialize Docker?",
+    "options": [
+      "apt-get install pkg",
+      "brew install pkg",
+      "apt-get install docker.io",
+      "npm install package"
+    ],
+    "correct_answer": "apt-get install docker.io"
+  },
+  {
+    "skill": "Docker",
+    "question": "What is the primary programming language associated with Docker?",
+    "options": [
+      NaN,
+      "JavaScript",
+      "Rust",
+      "Python"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Docker",
+    "question": "Which of these is a key feature of Docker?",
+    "options": [
+      "Kernel",
+      "Automation",
+      "Strong typing",
+      "Schema‑based queries"
+    ],
+    "correct_answer": "Automation"
+  },
+  {
+    "skill": "Docker",
+    "question": "Which of the following could be considered a competitor or alternative to Docker?",
+    "options": [
+      "NestJS",
+      "CSS",
+      "Kafka",
+      "FastAPI"
+    ],
+    "correct_answer": "Kafka"
+  },
+  {
+    "skill": "Docker",
+    "question": "Under which license is Docker primarily distributed?",
+    "options": [
+      "Public Domain",
+      "GPL‑2.0",
+      "Apache‑2.0",
+      "Proprietary"
+    ],
+    "correct_answer": "GPL‑2.0"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "Which category best describes Kubernetes?",
+    "options": [
+      "Machine learning library",
+      "Shell",
+      "Messaging system",
+      "DevOps tool"
+    ],
+    "correct_answer": "DevOps tool"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "Who primarily maintains Kubernetes?",
+    "options": [
+      "Various",
+      "Foundation",
+      "Corporate",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "In which year was Kubernetes first released?",
+    "options": [
+      "2008",
+      "2011",
+      "2014",
+      "2010"
+    ],
+    "correct_answer": "2011"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "What is a common file extension associated with Kubernetes?",
+    "options": [
+      ".html",
+      NaN,
+      ".js",
+      ".yml"
+    ],
+    "correct_answer": ".yml"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "What is a primary use case of Kubernetes?",
+    "options": [
+      "Working with mobile framework",
+      "Working with styling language",
+      "Working with security standard",
+      "Working with devops tool"
+    ],
+    "correct_answer": "Working with devops tool"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "Which command is commonly used to install or initialize Kubernetes?",
+    "options": [
+      "kubectl apply -f",
+      NaN,
+      "apt-get install pkg",
+      "pip install package"
+    ],
+    "correct_answer": "kubectl apply -f"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "What is the primary programming language associated with Kubernetes?",
+    "options": [
+      "TypeScript",
+      NaN,
+      "Kotlin",
+      "Python"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "Which of these is a key feature of Kubernetes?",
+    "options": [
+      "Automation",
+      "Strong typing",
+      "Native bridges",
+      "Kernel"
+    ],
+    "correct_answer": "Automation"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "Which of the following could be considered a competitor or alternative to Kubernetes?",
+    "options": [
+      "FastAPI",
+      "MongoDB",
+      "Azure",
+      "MySQL"
+    ],
+    "correct_answer": "FastAPI"
+  },
+  {
+    "skill": "Kubernetes",
+    "question": "Under which license is Kubernetes primarily distributed?",
+    "options": [
+      "Proprietary",
+      "GPL‑2.0",
+      "Public Domain",
+      "BSD"
+    ],
+    "correct_answer": "GPL‑2.0"
+  },
+  {
+    "skill": "Terraform",
+    "question": "Which category best describes Terraform?",
+    "options": [
+      "DevOps tool",
+      "Back‑end runtime",
+      "Front‑end framework",
+      "Security standard"
+    ],
+    "correct_answer": "DevOps tool"
+  },
+  {
+    "skill": "Terraform",
+    "question": "Who primarily maintains Terraform?",
+    "options": [
+      "Various",
+      "Corporate",
+      "Foundation",
+      "Independent"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Terraform",
+    "question": "In which year was Terraform first released?",
+    "options": [
+      "2016",
+      "2019",
+      "2017",
+      "2014"
+    ],
+    "correct_answer": "2016"
+  },
+  {
+    "skill": "Terraform",
+    "question": "What is a common file extension associated with Terraform?",
+    "options": [
+      ".ts",
+      ".js",
+      ".yml",
+      ".cs"
+    ],
+    "correct_answer": ".yml"
+  },
+  {
+    "skill": "Terraform",
+    "question": "What is a primary use case of Terraform?",
+    "options": [
+      "Working with testing framework",
+      "Working with mobile framework",
+      "Working with back‑end runtime",
+      "Working with devops tool"
+    ],
+    "correct_answer": "Working with devops tool"
+  },
+  {
+    "skill": "Terraform",
+    "question": "Which command is commonly used to install or initialize Terraform?",
+    "options": [
+      "brew install pkg",
+      "npm install package",
+      NaN,
+      "brew install terraform"
+    ],
+    "correct_answer": "brew install terraform"
+  },
+  {
+    "skill": "Terraform",
+    "question": "What is the primary programming language associated with Terraform?",
+    "options": [
+      "Rust",
+      "Python",
+      "TypeScript",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Terraform",
+    "question": "Which of these is a key feature of Terraform?",
+    "options": [
+      "Strong typing",
+      "Publish‑subscribe",
+      "Automation",
+      "Component‑based UI"
+    ],
+    "correct_answer": "Automation"
+  },
+  {
+    "skill": "Terraform",
+    "question": "Which of the following could be considered a competitor or alternative to Terraform?",
+    "options": [
+      "Flask",
+      "Pandas",
+      "WebSockets",
+      "GraphQL"
+    ],
+    "correct_answer": "Pandas"
+  },
+  {
+    "skill": "Terraform",
+    "question": "Under which license is Terraform primarily distributed?",
+    "options": [
+      "MIT",
+      "MPL‑2.0",
+      "GPL‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "BSD"
+  },
+  {
+    "skill": "Ansible",
+    "question": "Which category best describes Ansible?",
+    "options": [
+      "DevOps tool",
+      "Networking protocol",
+      "Operating system",
+      "Machine learning library"
+    ],
+    "correct_answer": "DevOps tool"
+  },
+  {
+    "skill": "Ansible",
+    "question": "Who primarily maintains Ansible?",
+    "options": [
+      "Foundation",
+      "Various",
+      "Independent",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Ansible",
+    "question": "In which year was Ansible first released?",
+    "options": [
+      "2020",
+      "2022",
+      "2018",
+      "2023"
+    ],
+    "correct_answer": "2020"
+  },
+  {
+    "skill": "Ansible",
+    "question": "What is a common file extension associated with Ansible?",
+    "options": [
+      ".yml",
+      ".go",
+      ".rs",
+      ".css"
+    ],
+    "correct_answer": ".yml"
+  },
+  {
+    "skill": "Ansible",
+    "question": "What is a primary use case of Ansible?",
+    "options": [
+      "Working with back‑end runtime",
+      "Working with devops tool",
+      "Working with database",
+      "Working with networking protocol"
+    ],
+    "correct_answer": "Working with devops tool"
+  },
+  {
+    "skill": "Ansible",
+    "question": "Which command is commonly used to install or initialize Ansible?",
+    "options": [
+      "npm install package",
+      "pip install ansible",
+      "pip install package",
+      NaN
+    ],
+    "correct_answer": "pip install ansible"
+  },
+  {
+    "skill": "Ansible",
+    "question": "What is the primary programming language associated with Ansible?",
+    "options": [
+      "Swift",
+      NaN,
+      "Rust",
+      "JavaScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Ansible",
+    "question": "Which of these is a key feature of Ansible?",
+    "options": [
+      "Semantic tags",
+      "Model training",
+      "Automation",
+      "Native bridges"
+    ],
+    "correct_answer": "Automation"
+  },
+  {
+    "skill": "Ansible",
+    "question": "Which of the following could be considered a competitor or alternative to Ansible?",
+    "options": [
+      "Go",
+      "GCP",
+      "MongoDB",
+      "PyTorch"
+    ],
+    "correct_answer": "PyTorch"
+  },
+  {
+    "skill": "Ansible",
+    "question": "Under which license is Ansible primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "Apache‑2.0",
+      "MIT",
+      "Proprietary"
+    ],
+    "correct_answer": "MIT"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "Which category best describes Jenkins?",
+    "options": [
+      "API technology",
+      "DevOps tool",
+      "Shell",
+      "Networking protocol"
+    ],
+    "correct_answer": "DevOps tool"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "Who primarily maintains Jenkins?",
+    "options": [
+      "Foundation",
+      "Various",
+      "Corporate",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "In which year was Jenkins first released?",
+    "options": [
+      "2005",
+      "2006",
+      "2007",
+      "2003"
+    ],
+    "correct_answer": "2005"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "What is a common file extension associated with Jenkins?",
+    "options": [
+      NaN,
+      ".json",
+      ".sql",
+      ".yml"
+    ],
+    "correct_answer": ".yml"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "What is a primary use case of Jenkins?",
+    "options": [
+      "Working with mobile framework",
+      "Working with front‑end framework",
+      "Working with devops tool",
+      "Working with testing framework"
+    ],
+    "correct_answer": "Working with devops tool"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "Which command is commonly used to install or initialize Jenkins?",
+    "options": [
+      "apt-get install jenkins",
+      "brew install pkg",
+      "pip install package",
+      "npm install package"
+    ],
+    "correct_answer": "apt-get install jenkins"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "What is the primary programming language associated with Jenkins?",
+    "options": [
+      "Kotlin",
+      "Go",
+      NaN,
+      "JavaScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Jenkins",
+    "question": "Which of these is a key feature of Jenkins?",
+    "options": [
+      "Routing",
+      "Component‑based UI",
+      "Publish‑subscribe",
+      "Automation"
+    ],
+    "correct_answer": "Automation"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "Which of the following could be considered a competitor or alternative to Jenkins?",
+    "options": [
+      "Angular",
+      "Scikit-Learn",
+      "PyTorch",
+      "Go"
+    ],
+    "correct_answer": "Go"
+  },
+  {
+    "skill": "Jenkins",
+    "question": "Under which license is Jenkins primarily distributed?",
+    "options": [
+      "GPL‑2.0",
+      "MIT",
+      "Proprietary",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "Which category best describes GitHub Actions?",
+    "options": [
+      "Back‑end framework",
+      "Styling language",
+      "Operating system",
+      "DevOps tool"
+    ],
+    "correct_answer": "DevOps tool"
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "Who primarily maintains GitHub Actions?",
+    "options": [
+      "Corporate",
+      "Independent",
+      "Various",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "In which year was GitHub Actions first released?",
+    "options": [
+      "2015",
+      "2012",
+      "2014",
+      "2013"
+    ],
+    "correct_answer": "2012"
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "What is a common file extension associated with GitHub Actions?",
+    "options": [
+      ".sql",
+      ".js",
+      NaN,
+      ".yml"
+    ],
+    "correct_answer": ".yml"
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "What is a primary use case of GitHub Actions?",
+    "options": [
+      "Working with back‑end runtime",
+      "Working with devops tool",
+      "Working with messaging system",
+      "Working with security standard"
+    ],
+    "correct_answer": "Working with devops tool"
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "Which command is commonly used to install or initialize GitHub Actions?",
+    "options": [
+      "pip install package",
+      "apt-get install pkg",
+      "brew install pkg",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "What is the primary programming language associated with GitHub Actions?",
+    "options": [
+      "Rust",
+      "TypeScript",
+      "C#",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "Which of these is a key feature of GitHub Actions?",
+    "options": [
+      "Loose coupling",
+      "Automation",
+      "Signed tokens",
+      "Data storage"
+    ],
+    "correct_answer": "Automation"
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "Which of the following could be considered a competitor or alternative to GitHub Actions?",
+    "options": [
+      "GCP",
+      "NumPy",
+      "PyTorch",
+      "Svelte"
+    ],
+    "correct_answer": "PyTorch"
+  },
+  {
+    "skill": "GitHub Actions",
+    "question": "Under which license is GitHub Actions primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "Apache‑2.0",
+      "GPL‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "BSD"
+  },
+  {
+    "skill": "CircleCI",
+    "question": "Which category best describes CircleCI?",
+    "options": [
+      "DevOps tool",
+      "Cloud platform",
+      "Front‑end framework",
+      "Mobile framework"
+    ],
+    "correct_answer": "DevOps tool"
+  },
+  {
+    "skill": "CircleCI",
+    "question": "Who primarily maintains CircleCI?",
+    "options": [
+      "Foundation",
+      "Corporate",
+      "Various",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "CircleCI",
+    "question": "In which year was CircleCI first released?",
+    "options": [
+      "2018",
+      "2021",
+      "2020",
+      "2017"
+    ],
+    "correct_answer": "2018"
+  },
+  {
+    "skill": "CircleCI",
+    "question": "What is a common file extension associated with CircleCI?",
+    "options": [
+      ".go",
+      ".yml",
+      ".css",
+      ".html"
+    ],
+    "correct_answer": ".yml"
+  },
+  {
+    "skill": "CircleCI",
+    "question": "What is a primary use case of CircleCI?",
+    "options": [
+      "Working with devops tool",
+      "Working with styling language",
+      "Working with security standard",
+      "Working with testing framework"
+    ],
+    "correct_answer": "Working with devops tool"
+  },
+  {
+    "skill": "CircleCI",
+    "question": "Which command is commonly used to install or initialize CircleCI?",
+    "options": [
+      "pip install package",
+      "npm install package",
+      "apt-get install pkg",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "CircleCI",
+    "question": "What is the primary programming language associated with CircleCI?",
+    "options": [
+      "Kotlin",
+      "Swift",
+      "TypeScript",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "CircleCI",
+    "question": "Which of these is a key feature of CircleCI?",
+    "options": [
+      "Token grant types",
+      "Event loop",
+      "Semantic tags",
+      "Automation"
+    ],
+    "correct_answer": "Automation"
+  },
+  {
+    "skill": "CircleCI",
+    "question": "Which of the following could be considered a competitor or alternative to CircleCI?",
+    "options": [
+      "RabbitMQ",
+      "Flask",
+      "Cypress",
+      "Scikit-Learn"
+    ],
+    "correct_answer": "Scikit-Learn"
+  },
+  {
+    "skill": "CircleCI",
+    "question": "Under which license is CircleCI primarily distributed?",
+    "options": [
+      "Apache‑2.0",
+      "MPL‑2.0",
+      "Public Domain",
+      "GPL‑2.0"
+    ],
+    "correct_answer": "GPL‑2.0"
+  },
+  {
+    "skill": "AWS",
+    "question": "Which category best describes AWS?",
+    "options": [
+      "Machine learning library",
+      "Security standard",
+      "Cloud platform",
+      "Architecture style"
+    ],
+    "correct_answer": "Cloud platform"
+  },
+  {
+    "skill": "AWS",
+    "question": "Who primarily maintains AWS?",
+    "options": [
+      "Various",
+      "Independent",
+      "Community",
+      "Corporate"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "AWS",
+    "question": "In which year was AWS first released?",
+    "options": [
+      "1995",
+      "1998",
+      "1997",
+      "1996"
+    ],
+    "correct_answer": "1996"
+  },
+  {
+    "skill": "AWS",
+    "question": "What is a common file extension associated with AWS?",
+    "options": [
+      NaN,
+      ".css",
+      ".sql",
+      ".cs"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "AWS",
+    "question": "What is a primary use case of AWS?",
+    "options": [
+      "Working with styling language",
+      "Working with security standard",
+      "Working with testing framework",
+      "Working with cloud platform"
+    ],
+    "correct_answer": "Working with cloud platform"
+  },
+  {
+    "skill": "AWS",
+    "question": "Which command is commonly used to install or initialize AWS?",
+    "options": [
+      "npm install package",
+      "aws configure",
+      NaN,
+      "pip install package"
+    ],
+    "correct_answer": "aws configure"
+  },
+  {
+    "skill": "AWS",
+    "question": "What is the primary programming language associated with AWS?",
+    "options": [
+      "Go",
+      "Kotlin",
+      "Java",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "AWS",
+    "question": "Which of these is a key feature of AWS?",
+    "options": [
+      "Cascade",
+      "Token grant types",
+      "Scalable compute",
+      "Strong typing"
+    ],
+    "correct_answer": "Scalable compute"
+  },
+  {
+    "skill": "AWS",
+    "question": "Which of the following could be considered a competitor or alternative to AWS?",
+    "options": [
+      "RabbitMQ",
+      "Python",
+      "GraphQL",
+      "GitHub Actions"
+    ],
+    "correct_answer": "GitHub Actions"
+  },
+  {
+    "skill": "AWS",
+    "question": "Under which license is AWS primarily distributed?",
+    "options": [
+      "MIT",
+      "Public Domain",
+      "GPL‑2.0",
+      "Proprietary"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "Azure",
+    "question": "Which category best describes Azure?",
+    "options": [
+      "Back‑end framework",
+      "Cloud platform",
+      "Operating system",
+      "Technology"
+    ],
+    "correct_answer": "Cloud platform"
+  },
+  {
+    "skill": "Azure",
+    "question": "Who primarily maintains Azure?",
+    "options": [
+      "Independent",
+      "Community",
+      "Corporate",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Azure",
+    "question": "In which year was Azure first released?",
+    "options": [
+      "2001",
+      "1999",
+      "2002",
+      "2005"
+    ],
+    "correct_answer": "2002"
+  },
+  {
+    "skill": "Azure",
+    "question": "What is a common file extension associated with Azure?",
+    "options": [
+      ".css",
+      ".html",
+      ".yaml",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Azure",
+    "question": "What is a primary use case of Azure?",
+    "options": [
+      "Working with cloud platform",
+      "Working with security standard",
+      "Working with back‑end runtime",
+      "Working with devops tool"
+    ],
+    "correct_answer": "Working with cloud platform"
+  },
+  {
+    "skill": "Azure",
+    "question": "Which command is commonly used to install or initialize Azure?",
+    "options": [
+      NaN,
+      "az login",
+      "npm install package",
+      "apt-get install pkg"
+    ],
+    "correct_answer": "az login"
+  },
+  {
+    "skill": "Azure",
+    "question": "What is the primary programming language associated with Azure?",
+    "options": [
+      NaN,
+      "Swift",
+      "JavaScript",
+      "JavaScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Azure",
+    "question": "Which of these is a key feature of Azure?",
+    "options": [
+      "Component‑based UI",
+      "Event loop",
+      "Scalable compute",
+      "Routing"
+    ],
+    "correct_answer": "Scalable compute"
+  },
+  {
+    "skill": "Azure",
+    "question": "Which of the following could be considered a competitor or alternative to Azure?",
+    "options": [
+      "Jest",
+      "C++",
+      "TensorFlow",
+      "Express"
+    ],
+    "correct_answer": "Express"
+  },
+  {
+    "skill": "Azure",
+    "question": "Under which license is Azure primarily distributed?",
+    "options": [
+      "Public Domain",
+      "Proprietary",
+      "Apache‑2.0",
+      "MIT"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "GCP",
+    "question": "Which category best describes GCP?",
+    "options": [
+      "Back‑end framework",
+      "Shell",
+      "Machine learning library",
+      "Cloud platform"
+    ],
+    "correct_answer": "Cloud platform"
+  },
+  {
+    "skill": "GCP",
+    "question": "Who primarily maintains GCP?",
+    "options": [
+      "Various",
+      "Corporate",
+      "Foundation",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "GCP",
+    "question": "In which year was GCP first released?",
+    "options": [
+      "2004",
+      "2006",
+      "2002",
+      "2003"
+    ],
+    "correct_answer": "2004"
+  },
+  {
+    "skill": "GCP",
+    "question": "What is a common file extension associated with GCP?",
+    "options": [
+      ".cs",
+      ".html",
+      ".java",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "GCP",
+    "question": "What is a primary use case of GCP?",
+    "options": [
+      "Working with cloud platform",
+      "Working with database",
+      "Working with networking protocol",
+      "Working with front‑end framework"
+    ],
+    "correct_answer": "Working with cloud platform"
+  },
+  {
+    "skill": "GCP",
+    "question": "Which command is commonly used to install or initialize GCP?",
+    "options": [
+      "brew install pkg",
+      "apt-get install pkg",
+      "gcloud init",
+      "npm install package"
+    ],
+    "correct_answer": "gcloud init"
+  },
+  {
+    "skill": "GCP",
+    "question": "What is the primary programming language associated with GCP?",
+    "options": [
+      "Swift",
+      "JavaScript",
+      NaN,
+      "TypeScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "GCP",
+    "question": "Which of these is a key feature of GCP?",
+    "options": [
+      "Routing",
+      "Scalable compute",
+      "Publish‑subscribe",
+      "Full‑duplex"
+    ],
+    "correct_answer": "Scalable compute"
+  },
+  {
+    "skill": "GCP",
+    "question": "Which of the following could be considered a competitor or alternative to GCP?",
+    "options": [
+      "MySQL",
+      "Kafka",
+      "AWS",
+      "TensorFlow"
+    ],
+    "correct_answer": "TensorFlow"
+  },
+  {
+    "skill": "GCP",
+    "question": "Under which license is GCP primarily distributed?",
+    "options": [
+      "Public Domain",
+      "BSD",
+      "MIT",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "Linux",
+    "question": "Which category best describes Linux?",
+    "options": [
+      "Back‑end runtime",
+      "Operating system",
+      "API technology",
+      "Technology"
+    ],
+    "correct_answer": "Operating system"
+  },
+  {
+    "skill": "Linux",
+    "question": "Who primarily maintains Linux?",
+    "options": [
+      "Independent",
+      "Community",
+      "Foundation",
+      "Corporate"
+    ],
+    "correct_answer": "Community"
+  },
+  {
+    "skill": "Linux",
+    "question": "In which year was Linux first released?",
+    "options": [
+      "1997",
+      "2000",
+      "1999",
+      "1998"
+    ],
+    "correct_answer": "1999"
+  },
+  {
+    "skill": "Linux",
+    "question": "What is a common file extension associated with Linux?",
+    "options": [
+      ".yaml",
+      ".cs",
+      NaN,
+      ".java"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Linux",
+    "question": "What is a primary use case of Linux?",
+    "options": [
+      "Working with operating system",
+      "Working with front‑end framework",
+      "Working with devops tool",
+      "Working with security standard"
+    ],
+    "correct_answer": "Working with operating system"
+  },
+  {
+    "skill": "Linux",
+    "question": "Which command is commonly used to install or initialize Linux?",
+    "options": [
+      NaN,
+      "pip install package",
+      "apt-get install pkg",
+      "brew install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Linux",
+    "question": "What is the primary programming language associated with Linux?",
+    "options": [
+      "Swift",
+      "Go",
+      "Python",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Linux",
+    "question": "Which of these is a key feature of Linux?",
+    "options": [
+      "Data manipulation",
+      "Native bridges",
+      "Cascade",
+      "Kernel"
+    ],
+    "correct_answer": "Kernel"
+  },
+  {
+    "skill": "Linux",
+    "question": "Which of the following could be considered a competitor or alternative to Linux?",
+    "options": [
+      "GraphQL",
+      "NestJS",
+      "RabbitMQ",
+      "MySQL"
+    ],
+    "correct_answer": "GraphQL"
+  },
+  {
+    "skill": "Linux",
+    "question": "Under which license is Linux primarily distributed?",
+    "options": [
+      "MIT",
+      "GPL‑2.0",
+      "Public Domain",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "MPL‑2.0"
+  },
+  {
+    "skill": "Git",
+    "question": "Which category best describes Git?",
+    "options": [
+      "DevOps tool",
+      "Machine learning library",
+      "Security standard",
+      "Technology"
+    ],
+    "correct_answer": "DevOps tool"
+  },
+  {
+    "skill": "Git",
+    "question": "Who primarily maintains Git?",
+    "options": [
+      "Corporate",
+      "Various",
+      "Independent",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Git",
+    "question": "In which year was Git first released?",
+    "options": [
+      "2006",
+      "2004",
+      "2005",
+      "2007"
+    ],
+    "correct_answer": "2004"
+  },
+  {
+    "skill": "Git",
+    "question": "What is a common file extension associated with Git?",
+    "options": [
+      NaN,
+      ".ts",
+      ".rs",
+      ".yml"
+    ],
+    "correct_answer": ".yml"
+  },
+  {
+    "skill": "Git",
+    "question": "What is a primary use case of Git?",
+    "options": [
+      "Working with devops tool",
+      "Working with database",
+      "Working with programming language",
+      "Working with security standard"
+    ],
+    "correct_answer": "Working with devops tool"
+  },
+  {
+    "skill": "Git",
+    "question": "Which command is commonly used to install or initialize Git?",
+    "options": [
+      "pip install package",
+      "apt-get install pkg",
+      "npm install package",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Git",
+    "question": "What is the primary programming language associated with Git?",
+    "options": [
+      "JavaScript",
+      NaN,
+      "Go",
+      "Python"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Git",
+    "question": "Which of these is a key feature of Git?",
+    "options": [
+      "Semantic tags",
+      "Schema‑based queries",
+      "Automation",
+      "Cascade"
+    ],
+    "correct_answer": "Automation"
+  },
+  {
+    "skill": "Git",
+    "question": "Which of the following could be considered a competitor or alternative to Git?",
+    "options": [
+      "C#",
+      "Bash",
+      "React",
+      "Kubernetes"
+    ],
+    "correct_answer": "C#"
+  },
+  {
+    "skill": "Git",
+    "question": "Under which license is Git primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "MIT",
+      "BSD",
+      "GPL‑2.0"
+    ],
+    "correct_answer": "MPL‑2.0"
+  },
+  {
+    "skill": "Bash",
+    "question": "Which category best describes Bash?",
+    "options": [
+      "Data library",
+      "API technology",
+      "Shell",
+      "Back‑end runtime"
+    ],
+    "correct_answer": "Shell"
+  },
+  {
+    "skill": "Bash",
+    "question": "Who primarily maintains Bash?",
+    "options": [
+      "Community",
+      "Corporate",
+      "Various",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Bash",
+    "question": "In which year was Bash first released?",
+    "options": [
+      "1998",
+      "2000",
+      "2003",
+      "1999"
+    ],
+    "correct_answer": "2000"
+  },
+  {
+    "skill": "Bash",
+    "question": "What is a common file extension associated with Bash?",
+    "options": [
+      NaN,
+      ".html",
+      ".go",
+      ".sh"
+    ],
+    "correct_answer": ".sh"
+  },
+  {
+    "skill": "Bash",
+    "question": "What is a primary use case of Bash?",
+    "options": [
+      "Working with shell",
+      "Working with front‑end framework",
+      "Working with security standard",
+      "Working with database"
+    ],
+    "correct_answer": "Working with shell"
+  },
+  {
+    "skill": "Bash",
+    "question": "Which command is commonly used to install or initialize Bash?",
+    "options": [
+      NaN,
+      "apt-get install pkg",
+      "pip install package",
+      "npm install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Bash",
+    "question": "What is the primary programming language associated with Bash?",
+    "options": [
+      "JavaScript",
+      "C++",
+      "Rust",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Bash",
+    "question": "Which of these is a key feature of Bash?",
+    "options": [
+      "Scalable compute",
+      "Semantic tags",
+      "Cascade",
+      "Command scripting"
+    ],
+    "correct_answer": "Command scripting"
+  },
+  {
+    "skill": "Bash",
+    "question": "Which of the following could be considered a competitor or alternative to Bash?",
+    "options": [
+      "Node.js",
+      "Docker",
+      "Ansible",
+      "Kubernetes"
+    ],
+    "correct_answer": "Ansible"
+  },
+  {
+    "skill": "Bash",
+    "question": "Under which license is Bash primarily distributed?",
+    "options": [
+      "GPL‑2.0",
+      "Public Domain",
+      "Proprietary",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "Proprietary"
+  },
+  {
+    "skill": "HTML",
+    "question": "Which category best describes HTML?",
+    "options": [
+      "Database",
+      "Markup language",
+      "Mobile framework",
+      "Security protocol"
+    ],
+    "correct_answer": "Markup language"
+  },
+  {
+    "skill": "HTML",
+    "question": "Who primarily maintains HTML?",
+    "options": [
+      "Foundation",
+      "Various",
+      "Independent",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "HTML",
+    "question": "In which year was HTML first released?",
+    "options": [
+      "1999",
+      "2001",
+      "1998",
+      "1996"
+    ],
+    "correct_answer": "1999"
+  },
+  {
+    "skill": "HTML",
+    "question": "What is a common file extension associated with HTML?",
+    "options": [
+      ".java",
+      ".html",
+      NaN,
+      ".yaml"
+    ],
+    "correct_answer": ".html"
+  },
+  {
+    "skill": "HTML",
+    "question": "What is a primary use case of HTML?",
+    "options": [
+      "Working with networking protocol",
+      "Working with markup language",
+      "Working with front‑end framework",
+      "Working with testing framework"
+    ],
+    "correct_answer": "Working with markup language"
+  },
+  {
+    "skill": "HTML",
+    "question": "Which command is commonly used to install or initialize HTML?",
+    "options": [
+      "brew install pkg",
+      NaN,
+      "pip install package",
+      "apt-get install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "HTML",
+    "question": "What is the primary programming language associated with HTML?",
+    "options": [
+      "JavaScript",
+      "Rust",
+      "Kotlin",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "HTML",
+    "question": "Which of these is a key feature of HTML?",
+    "options": [
+      "Kernel",
+      "Semantic tags",
+      "Signed tokens",
+      "Data manipulation"
+    ],
+    "correct_answer": "Semantic tags"
+  },
+  {
+    "skill": "HTML",
+    "question": "Which of the following could be considered a competitor or alternative to HTML?",
+    "options": [
+      "PostgreSQL",
+      "NumPy",
+      "GitHub Actions",
+      "Flask"
+    ],
+    "correct_answer": "GitHub Actions"
+  },
+  {
+    "skill": "HTML",
+    "question": "Under which license is HTML primarily distributed?",
+    "options": [
+      "Proprietary",
+      "MIT",
+      "BSD",
+      "Public Domain"
+    ],
+    "correct_answer": "MIT"
+  },
+  {
+    "skill": "CSS",
+    "question": "Which category best describes CSS?",
+    "options": [
+      "Security standard",
+      "Styling language",
+      "Networking protocol",
+      "Architecture style"
+    ],
+    "correct_answer": "Styling language"
+  },
+  {
+    "skill": "CSS",
+    "question": "Who primarily maintains CSS?",
+    "options": [
+      "Foundation",
+      "Community",
+      "Corporate",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "CSS",
+    "question": "In which year was CSS first released?",
+    "options": [
+      "1994",
+      "1992",
+      "1991",
+      "1989"
+    ],
+    "correct_answer": "1992"
+  },
+  {
+    "skill": "CSS",
+    "question": "What is a common file extension associated with CSS?",
+    "options": [
+      NaN,
+      ".java",
+      ".js",
+      ".css"
+    ],
+    "correct_answer": ".css"
+  },
+  {
+    "skill": "CSS",
+    "question": "What is a primary use case of CSS?",
+    "options": [
+      "Working with database",
+      "Working with testing framework",
+      "Working with styling language",
+      "Working with mobile framework"
+    ],
+    "correct_answer": "Working with styling language"
+  },
+  {
+    "skill": "CSS",
+    "question": "Which command is commonly used to install or initialize CSS?",
+    "options": [
+      NaN,
+      "npm install package",
+      "pip install package",
+      "apt-get install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "CSS",
+    "question": "What is the primary programming language associated with CSS?",
+    "options": [
+      "Go",
+      "Java",
+      "JavaScript",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "CSS",
+    "question": "Which of these is a key feature of CSS?",
+    "options": [
+      "Data storage",
+      "Strong typing",
+      "Token grant types",
+      "Cascade"
+    ],
+    "correct_answer": "Cascade"
+  },
+  {
+    "skill": "CSS",
+    "question": "Which of the following could be considered a competitor or alternative to CSS?",
+    "options": [
+      "Spring",
+      "C#",
+      "TypeScript",
+      "Ansible"
+    ],
+    "correct_answer": "Ansible"
+  },
+  {
+    "skill": "CSS",
+    "question": "Under which license is CSS primarily distributed?",
+    "options": [
+      "Public Domain",
+      "Apache‑2.0",
+      "MPL‑2.0",
+      "GPL‑2.0"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "Which category best describes TypeScript?",
+    "options": [
+      "Machine learning library",
+      "Markup language",
+      "Programming language",
+      "Mobile framework"
+    ],
+    "correct_answer": "Programming language"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "Who primarily maintains TypeScript?",
+    "options": [
+      "Foundation",
+      "Corporate",
+      "Independent",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "In which year was TypeScript first released?",
+    "options": [
+      "1994",
+      "1995",
+      "1992",
+      "1996"
+    ],
+    "correct_answer": "1994"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "What is a common file extension associated with TypeScript?",
+    "options": [
+      ".sql",
+      ".ts",
+      ".yaml",
+      ".java"
+    ],
+    "correct_answer": ".ts"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "What is a primary use case of TypeScript?",
+    "options": [
+      "Working with mobile framework",
+      "Working with programming language",
+      "Working with networking protocol",
+      "Working with testing framework"
+    ],
+    "correct_answer": "Working with programming language"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "Which command is commonly used to install or initialize TypeScript?",
+    "options": [
+      "apt-get install pkg",
+      "pip install package",
+      NaN,
+      "npm install typescript"
+    ],
+    "correct_answer": "npm install typescript"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "What is the primary programming language associated with TypeScript?",
+    "options": [
+      "C#",
+      "Kotlin",
+      NaN,
+      "TypeScript"
+    ],
+    "correct_answer": "TypeScript"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "Which of these is a key feature of TypeScript?",
+    "options": [
+      "Automation",
+      "Semantic tags",
+      "Model training",
+      "Strong typing"
+    ],
+    "correct_answer": "Strong typing"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "Which of the following could be considered a competitor or alternative to TypeScript?",
+    "options": [
+      "Linux",
+      "Spring",
+      "FastAPI",
+      "JavaScript"
+    ],
+    "correct_answer": "FastAPI"
+  },
+  {
+    "skill": "TypeScript",
+    "question": "Under which license is TypeScript primarily distributed?",
+    "options": [
+      "Public Domain",
+      "Proprietary",
+      "Apache‑2.0",
+      "MIT"
+    ],
+    "correct_answer": "Apache‑2.0"
+  },
+  {
+    "skill": "Node.js",
+    "question": "Which category best describes Node.js?",
+    "options": [
+      "Back‑end runtime",
+      "DevOps tool",
+      "Back‑end framework",
+      "Mobile framework"
+    ],
+    "correct_answer": "Back‑end runtime"
+  },
+  {
+    "skill": "Node.js",
+    "question": "Who primarily maintains Node.js?",
+    "options": [
+      "Foundation",
+      "Various",
+      "Community",
+      "Corporate"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Node.js",
+    "question": "In which year was Node.js first released?",
+    "options": [
+      "2008",
+      "2014",
+      "2010",
+      "2011"
+    ],
+    "correct_answer": "2011"
+  },
+  {
+    "skill": "Node.js",
+    "question": "What is a common file extension associated with Node.js?",
+    "options": [
+      ".json",
+      NaN,
+      ".cs",
+      ".js"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Node.js",
+    "question": "What is a primary use case of Node.js?",
+    "options": [
+      "Working with mobile framework",
+      "Working with back‑end runtime",
+      "Working with programming language",
+      "Working with styling language"
+    ],
+    "correct_answer": "Working with back‑end runtime"
+  },
+  {
+    "skill": "Node.js",
+    "question": "Which command is commonly used to install or initialize Node.js?",
+    "options": [
+      "npm install package",
+      "apt-get install pkg",
+      NaN,
+      "brew install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Node.js",
+    "question": "What is the primary programming language associated with Node.js?",
+    "options": [
+      "Python",
+      NaN,
+      "Kotlin",
+      "C#"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Node.js",
+    "question": "Which of these is a key feature of Node.js?",
+    "options": [
+      "Event loop",
+      "Scalable compute",
+      "Kernel",
+      "Data storage"
+    ],
+    "correct_answer": "Event loop"
+  },
+  {
+    "skill": "Node.js",
+    "question": "Which of the following could be considered a competitor or alternative to Node.js?",
+    "options": [
+      "C++",
+      "Svelte",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "correct_answer": "AWS"
+  },
+  {
+    "skill": "Node.js",
+    "question": "Under which license is Node.js primarily distributed?",
+    "options": [
+      "BSD",
+      "Apache‑2.0",
+      "MPL‑2.0",
+      "MIT"
+    ],
+    "correct_answer": "MIT"
+  },
+  {
+    "skill": "GraphQL",
+    "question": "Which category best describes GraphQL?",
+    "options": [
+      "Architecture style",
+      "Styling language",
+      "API technology",
+      "Front‑end framework"
+    ],
+    "correct_answer": "API technology"
+  },
+  {
+    "skill": "GraphQL",
+    "question": "Who primarily maintains GraphQL?",
+    "options": [
+      "Community",
+      "Independent",
+      "Foundation",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "GraphQL",
+    "question": "In which year was GraphQL first released?",
+    "options": [
+      "1999",
+      "1996",
+      "1997",
+      "2001"
+    ],
+    "correct_answer": "1999"
+  },
+  {
+    "skill": "GraphQL",
+    "question": "What is a common file extension associated with GraphQL?",
+    "options": [
+      ".go",
+      ".java",
+      ".html",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "GraphQL",
+    "question": "What is a primary use case of GraphQL?",
+    "options": [
+      "Working with styling language",
+      "Working with front‑end framework",
+      "Working with devops tool",
+      "Working with api technology"
+    ],
+    "correct_answer": "Working with api technology"
+  },
+  {
+    "skill": "GraphQL",
+    "question": "Which command is commonly used to install or initialize GraphQL?",
+    "options": [
+      "brew install pkg",
+      "apt-get install pkg",
+      NaN,
+      "npm install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "GraphQL",
+    "question": "What is the primary programming language associated with GraphQL?",
+    "options": [
+      "TypeScript",
+      NaN,
+      "JavaScript",
+      "Go"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "GraphQL",
+    "question": "Which of these is a key feature of GraphQL?",
+    "options": [
+      "Schema‑based queries",
+      "Native bridges",
+      "Command scripting",
+      "Assertions"
+    ],
+    "correct_answer": "Schema‑based queries"
+  },
+  {
+    "skill": "GraphQL",
+    "question": "Which of the following could be considered a competitor or alternative to GraphQL?",
+    "options": [
+      "TensorFlow",
+      "Angular",
+      "Node.js",
+      "Selenium"
+    ],
+    "correct_answer": "Node.js"
+  },
+  {
+    "skill": "GraphQL",
+    "question": "Under which license is GraphQL primarily distributed?",
+    "options": [
+      "GPL‑2.0",
+      "MPL‑2.0",
+      "BSD",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "GPL‑2.0"
+  },
+  {
+    "skill": "Kafka",
+    "question": "Which category best describes Kafka?",
+    "options": [
+      "Operating system",
+      "Back‑end runtime",
+      "Messaging system",
+      "Cloud platform"
+    ],
+    "correct_answer": "Messaging system"
+  },
+  {
+    "skill": "Kafka",
+    "question": "Who primarily maintains Kafka?",
+    "options": [
+      "Various",
+      "Foundation",
+      "Corporate",
+      "Independent"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Kafka",
+    "question": "In which year was Kafka first released?",
+    "options": [
+      "2015",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "correct_answer": "2018"
+  },
+  {
+    "skill": "Kafka",
+    "question": "What is a common file extension associated with Kafka?",
+    "options": [
+      ".js",
+      ".html",
+      NaN,
+      ".go"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Kafka",
+    "question": "What is a primary use case of Kafka?",
+    "options": [
+      "Working with database",
+      "Working with devops tool",
+      "Working with testing framework",
+      "Working with messaging system"
+    ],
+    "correct_answer": "Working with messaging system"
+  },
+  {
+    "skill": "Kafka",
+    "question": "Which command is commonly used to install or initialize Kafka?",
+    "options": [
+      "pip install package",
+      "npm install package",
+      "brew install pkg",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Kafka",
+    "question": "What is the primary programming language associated with Kafka?",
+    "options": [
+      "C++",
+      "Rust",
+      "Kotlin",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Kafka",
+    "question": "Which of these is a key feature of Kafka?",
+    "options": [
+      "Semantic tags",
+      "Publish‑subscribe",
+      "Strong typing",
+      "Scalable compute"
+    ],
+    "correct_answer": "Publish‑subscribe"
+  },
+  {
+    "skill": "Kafka",
+    "question": "Which of the following could be considered a competitor or alternative to Kafka?",
+    "options": [
+      "MongoDB",
+      "TypeScript",
+      "JavaScript",
+      "Swift"
+    ],
+    "correct_answer": "Swift"
+  },
+  {
+    "skill": "Kafka",
+    "question": "Under which license is Kafka primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "Proprietary",
+      "Apache‑2.0",
+      "GPL‑2.0"
+    ],
+    "correct_answer": "MPL‑2.0"
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "Which category best describes RabbitMQ?",
+    "options": [
+      "Messaging system",
+      "Security standard",
+      "Styling language",
+      "Programming language"
+    ],
+    "correct_answer": "Messaging system"
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "Who primarily maintains RabbitMQ?",
+    "options": [
+      "Various",
+      "Independent",
+      "Corporate",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "In which year was RabbitMQ first released?",
+    "options": [
+      "1994",
+      "1992",
+      "1993",
+      "1990"
+    ],
+    "correct_answer": "1992"
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "What is a common file extension associated with RabbitMQ?",
+    "options": [
+      NaN,
+      ".js",
+      ".cs",
+      ".html"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "What is a primary use case of RabbitMQ?",
+    "options": [
+      "Working with security standard",
+      "Working with messaging system",
+      "Working with devops tool",
+      "Working with back‑end runtime"
+    ],
+    "correct_answer": "Working with messaging system"
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "Which command is commonly used to install or initialize RabbitMQ?",
+    "options": [
+      "pip install package",
+      "apt-get install pkg",
+      NaN,
+      "npm install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "What is the primary programming language associated with RabbitMQ?",
+    "options": [
+      "C#",
+      NaN,
+      "Java",
+      "Kotlin"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "Which of these is a key feature of RabbitMQ?",
+    "options": [
+      "Automation",
+      "Schema‑based queries",
+      "Command scripting",
+      "Publish‑subscribe"
+    ],
+    "correct_answer": "Publish‑subscribe"
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "Which of the following could be considered a competitor or alternative to RabbitMQ?",
+    "options": [
+      "C++",
+      "Docker",
+      "Rust",
+      "Bash"
+    ],
+    "correct_answer": "Rust"
+  },
+  {
+    "skill": "RabbitMQ",
+    "question": "Under which license is RabbitMQ primarily distributed?",
+    "options": [
+      "MIT",
+      "MPL‑2.0",
+      "GPL‑2.0",
+      "Proprietary"
+    ],
+    "correct_answer": "MPL‑2.0"
+  },
+  {
+    "skill": "Selenium",
+    "question": "Which category best describes Selenium?",
+    "options": [
+      "Data library",
+      "Testing framework",
+      "Programming language",
+      "DevOps tool"
+    ],
+    "correct_answer": "Testing framework"
+  },
+  {
+    "skill": "Selenium",
+    "question": "Who primarily maintains Selenium?",
+    "options": [
+      "Corporate",
+      "Various",
+      "Foundation",
+      "Independent"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Selenium",
+    "question": "In which year was Selenium first released?",
+    "options": [
+      "2005",
+      "2007",
+      "2006",
+      "2008"
+    ],
+    "correct_answer": "2008"
+  },
+  {
+    "skill": "Selenium",
+    "question": "What is a common file extension associated with Selenium?",
+    "options": [
+      ".css",
+      NaN,
+      ".js",
+      ".ts"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Selenium",
+    "question": "What is a primary use case of Selenium?",
+    "options": [
+      "Working with styling language",
+      "Working with networking protocol",
+      "Working with devops tool",
+      "Working with testing framework"
+    ],
+    "correct_answer": "Working with testing framework"
+  },
+  {
+    "skill": "Selenium",
+    "question": "Which command is commonly used to install or initialize Selenium?",
+    "options": [
+      "npm install package",
+      NaN,
+      "brew install pkg",
+      "apt-get install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Selenium",
+    "question": "What is the primary programming language associated with Selenium?",
+    "options": [
+      "TypeScript",
+      "Python",
+      "C++",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Selenium",
+    "question": "Which of these is a key feature of Selenium?",
+    "options": [
+      "Kernel",
+      "Assertions",
+      "Strong typing",
+      "Scalable compute"
+    ],
+    "correct_answer": "Assertions"
+  },
+  {
+    "skill": "Selenium",
+    "question": "Which of the following could be considered a competitor or alternative to Selenium?",
+    "options": [
+      "Vue",
+      "GraphQL",
+      "Go",
+      "NumPy"
+    ],
+    "correct_answer": "GraphQL"
+  },
+  {
+    "skill": "Selenium",
+    "question": "Under which license is Selenium primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "GPL‑2.0",
+      "Proprietary",
+      "Public Domain"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "Cypress",
+    "question": "Which category best describes Cypress?",
+    "options": [
+      "Testing framework",
+      "Security standard",
+      "Markup language",
+      "Security protocol"
+    ],
+    "correct_answer": "Testing framework"
+  },
+  {
+    "skill": "Cypress",
+    "question": "Who primarily maintains Cypress?",
+    "options": [
+      "Corporate",
+      "Independent",
+      "Various",
+      "Foundation"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Cypress",
+    "question": "In which year was Cypress first released?",
+    "options": [
+      "1992",
+      "1990",
+      "1993",
+      "1995"
+    ],
+    "correct_answer": "1993"
+  },
+  {
+    "skill": "Cypress",
+    "question": "What is a common file extension associated with Cypress?",
+    "options": [
+      ".py",
+      ".html",
+      ".json",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Cypress",
+    "question": "What is a primary use case of Cypress?",
+    "options": [
+      "Working with networking protocol",
+      "Working with messaging system",
+      "Working with testing framework",
+      "Working with security standard"
+    ],
+    "correct_answer": "Working with testing framework"
+  },
+  {
+    "skill": "Cypress",
+    "question": "Which command is commonly used to install or initialize Cypress?",
+    "options": [
+      "npm install package",
+      "brew install pkg",
+      "pip install package",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Cypress",
+    "question": "What is the primary programming language associated with Cypress?",
+    "options": [
+      "Python",
+      "Kotlin",
+      "Rust",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Cypress",
+    "question": "Which of these is a key feature of Cypress?",
+    "options": [
+      "Assertions",
+      "Loose coupling",
+      "Model training",
+      "Kernel"
+    ],
+    "correct_answer": "Assertions"
+  },
+  {
+    "skill": "Cypress",
+    "question": "Which of the following could be considered a competitor or alternative to Cypress?",
+    "options": [
+      "Selenium",
+      "Flutter",
+      "Terraform",
+      "Next.js"
+    ],
+    "correct_answer": "Flutter"
+  },
+  {
+    "skill": "Cypress",
+    "question": "Under which license is Cypress primarily distributed?",
+    "options": [
+      "Proprietary",
+      "BSD",
+      "GPL‑2.0",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "GPL‑2.0"
+  },
+  {
+    "skill": "Jest",
+    "question": "Which category best describes Jest?",
+    "options": [
+      "Testing framework",
+      "API technology",
+      "Data library",
+      "Technology"
+    ],
+    "correct_answer": "Testing framework"
+  },
+  {
+    "skill": "Jest",
+    "question": "Who primarily maintains Jest?",
+    "options": [
+      "Corporate",
+      "Various",
+      "Foundation",
+      "Independent"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Jest",
+    "question": "In which year was Jest first released?",
+    "options": [
+      "2001",
+      "1999",
+      "2002",
+      "2000"
+    ],
+    "correct_answer": "1999"
+  },
+  {
+    "skill": "Jest",
+    "question": "What is a common file extension associated with Jest?",
+    "options": [
+      ".sql",
+      NaN,
+      ".java",
+      ".go"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Jest",
+    "question": "What is a primary use case of Jest?",
+    "options": [
+      "Working with testing framework",
+      "Working with devops tool",
+      "Working with styling language",
+      "Working with database"
+    ],
+    "correct_answer": "Working with testing framework"
+  },
+  {
+    "skill": "Jest",
+    "question": "Which command is commonly used to install or initialize Jest?",
+    "options": [
+      "npm install package",
+      "apt-get install pkg",
+      "pip install package",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Jest",
+    "question": "What is the primary programming language associated with Jest?",
+    "options": [
+      "Rust",
+      "JavaScript",
+      "C++",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Jest",
+    "question": "Which of these is a key feature of Jest?",
+    "options": [
+      "Signed tokens",
+      "Assertions",
+      "Data manipulation",
+      "Token grant types"
+    ],
+    "correct_answer": "Assertions"
+  },
+  {
+    "skill": "Jest",
+    "question": "Which of the following could be considered a competitor or alternative to Jest?",
+    "options": [
+      "Next.js",
+      "Rust",
+      "Flutter",
+      "Pandas"
+    ],
+    "correct_answer": "Flutter"
+  },
+  {
+    "skill": "Jest",
+    "question": "Under which license is Jest primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "BSD",
+      "MIT",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "MPL‑2.0"
+  },
+  {
+    "skill": "Mocha",
+    "question": "Which category best describes Mocha?",
+    "options": [
+      "Testing framework",
+      "Networking protocol",
+      "Database",
+      "Front‑end framework"
+    ],
+    "correct_answer": "Testing framework"
+  },
+  {
+    "skill": "Mocha",
+    "question": "Who primarily maintains Mocha?",
+    "options": [
+      "Foundation",
+      "Community",
+      "Various",
+      "Corporate"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Mocha",
+    "question": "In which year was Mocha first released?",
+    "options": [
+      "2005",
+      "2006",
+      "2010",
+      "2007"
+    ],
+    "correct_answer": "2007"
+  },
+  {
+    "skill": "Mocha",
+    "question": "What is a common file extension associated with Mocha?",
+    "options": [
+      ".yaml",
+      ".py",
+      NaN,
+      ".cs"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Mocha",
+    "question": "What is a primary use case of Mocha?",
+    "options": [
+      "Working with programming language",
+      "Working with back‑end runtime",
+      "Working with database",
+      "Working with testing framework"
+    ],
+    "correct_answer": "Working with testing framework"
+  },
+  {
+    "skill": "Mocha",
+    "question": "Which command is commonly used to install or initialize Mocha?",
+    "options": [
+      "brew install pkg",
+      "npm install package",
+      "apt-get install pkg",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Mocha",
+    "question": "What is the primary programming language associated with Mocha?",
+    "options": [
+      "C#",
+      "Java",
+      NaN,
+      "TypeScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Mocha",
+    "question": "Which of these is a key feature of Mocha?",
+    "options": [
+      "Component‑based UI",
+      "Event loop",
+      "Assertions",
+      "Publish‑subscribe"
+    ],
+    "correct_answer": "Assertions"
+  },
+  {
+    "skill": "Mocha",
+    "question": "Which of the following could be considered a competitor or alternative to Mocha?",
+    "options": [
+      "Scikit-Learn",
+      "PostgreSQL",
+      "Bash",
+      "Next.js"
+    ],
+    "correct_answer": "PostgreSQL"
+  },
+  {
+    "skill": "Mocha",
+    "question": "Under which license is Mocha primarily distributed?",
+    "options": [
+      "MPL‑2.0",
+      "Apache‑2.0",
+      "Public Domain",
+      "MIT"
+    ],
+    "correct_answer": "MIT"
+  },
+  {
+    "skill": "OAuth2",
+    "question": "Which category best describes OAuth2?",
+    "options": [
+      "DevOps tool",
+      "Security protocol",
+      "Security standard",
+      "Programming language"
+    ],
+    "correct_answer": "Security protocol"
+  },
+  {
+    "skill": "OAuth2",
+    "question": "Who primarily maintains OAuth2?",
+    "options": [
+      "Foundation",
+      "Community",
+      "Various",
+      "Corporate"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "OAuth2",
+    "question": "In which year was OAuth2 first released?",
+    "options": [
+      "1992",
+      "1990",
+      "1991",
+      "1989"
+    ],
+    "correct_answer": "1992"
+  },
+  {
+    "skill": "OAuth2",
+    "question": "What is a common file extension associated with OAuth2?",
+    "options": [
+      ".rs",
+      ".java",
+      ".json",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "OAuth2",
+    "question": "What is a primary use case of OAuth2?",
+    "options": [
+      "Working with programming language",
+      "Working with security protocol",
+      "Working with mobile framework",
+      "Working with database"
+    ],
+    "correct_answer": "Working with security protocol"
+  },
+  {
+    "skill": "OAuth2",
+    "question": "Which command is commonly used to install or initialize OAuth2?",
+    "options": [
+      "npm install package",
+      NaN,
+      "pip install package",
+      "brew install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "OAuth2",
+    "question": "What is the primary programming language associated with OAuth2?",
+    "options": [
+      "C#",
+      NaN,
+      "TypeScript",
+      "JavaScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "OAuth2",
+    "question": "Which of these is a key feature of OAuth2?",
+    "options": [
+      "Schema‑based queries",
+      "Token grant types",
+      "Data storage",
+      "Semantic tags"
+    ],
+    "correct_answer": "Token grant types"
+  },
+  {
+    "skill": "OAuth2",
+    "question": "Which of the following could be considered a competitor or alternative to OAuth2?",
+    "options": [
+      "PyTorch",
+      "TensorFlow",
+      "CircleCI",
+      "Mocha"
+    ],
+    "correct_answer": "Mocha"
+  },
+  {
+    "skill": "OAuth2",
+    "question": "Under which license is OAuth2 primarily distributed?",
+    "options": [
+      "Apache‑2.0",
+      "GPL‑2.0",
+      "BSD",
+      "Public Domain"
+    ],
+    "correct_answer": "BSD"
+  },
+  {
+    "skill": "JWT",
+    "question": "Which category best describes JWT?",
+    "options": [
+      "Security standard",
+      "Markup language",
+      "API technology",
+      "Machine learning library"
+    ],
+    "correct_answer": "Security standard"
+  },
+  {
+    "skill": "JWT",
+    "question": "Who primarily maintains JWT?",
+    "options": [
+      "Corporate",
+      "Foundation",
+      "Independent",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "JWT",
+    "question": "In which year was JWT first released?",
+    "options": [
+      "2013",
+      "2012",
+      "2014",
+      "2016"
+    ],
+    "correct_answer": "2013"
+  },
+  {
+    "skill": "JWT",
+    "question": "What is a common file extension associated with JWT?",
+    "options": [
+      ".rs",
+      ".html",
+      ".java",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "JWT",
+    "question": "What is a primary use case of JWT?",
+    "options": [
+      "Working with database",
+      "Working with networking protocol",
+      "Working with security standard",
+      "Working with messaging system"
+    ],
+    "correct_answer": "Working with security standard"
+  },
+  {
+    "skill": "JWT",
+    "question": "Which command is commonly used to install or initialize JWT?",
+    "options": [
+      "apt-get install pkg",
+      NaN,
+      "pip install package",
+      "npm install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "JWT",
+    "question": "What is the primary programming language associated with JWT?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "C++",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "JWT",
+    "question": "Which of these is a key feature of JWT?",
+    "options": [
+      "Scalable compute",
+      "Signed tokens",
+      "Native bridges",
+      "Kernel"
+    ],
+    "correct_answer": "Signed tokens"
+  },
+  {
+    "skill": "JWT",
+    "question": "Which of the following could be considered a competitor or alternative to JWT?",
+    "options": [
+      "CircleCI",
+      "Flutter",
+      "GitHub Actions",
+      "Java"
+    ],
+    "correct_answer": "Java"
+  },
+  {
+    "skill": "JWT",
+    "question": "Under which license is JWT primarily distributed?",
+    "options": [
+      "Proprietary",
+      "GPL‑2.0",
+      "MPL‑2.0",
+      "BSD"
+    ],
+    "correct_answer": "BSD"
+  },
+  {
+    "skill": "WebSockets",
+    "question": "Which category best describes WebSockets?",
+    "options": [
+      "Testing framework",
+      "Networking protocol",
+      "Data library",
+      "Architecture style"
+    ],
+    "correct_answer": "Networking protocol"
+  },
+  {
+    "skill": "WebSockets",
+    "question": "Who primarily maintains WebSockets?",
+    "options": [
+      "Various",
+      "Independent",
+      "Foundation",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "WebSockets",
+    "question": "In which year was WebSockets first released?",
+    "options": [
+      "1996",
+      "1994",
+      "1995",
+      "1997"
+    ],
+    "correct_answer": "1997"
+  },
+  {
+    "skill": "WebSockets",
+    "question": "What is a common file extension associated with WebSockets?",
+    "options": [
+      ".html",
+      NaN,
+      ".yaml",
+      ".py"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "WebSockets",
+    "question": "What is a primary use case of WebSockets?",
+    "options": [
+      "Working with programming language",
+      "Working with messaging system",
+      "Working with networking protocol",
+      "Working with mobile framework"
+    ],
+    "correct_answer": "Working with networking protocol"
+  },
+  {
+    "skill": "WebSockets",
+    "question": "Which command is commonly used to install or initialize WebSockets?",
+    "options": [
+      "brew install pkg",
+      "apt-get install pkg",
+      NaN,
+      "npm install package"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "WebSockets",
+    "question": "What is the primary programming language associated with WebSockets?",
+    "options": [
+      "Python",
+      NaN,
+      "Go",
+      "Python"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "WebSockets",
+    "question": "Which of these is a key feature of WebSockets?",
+    "options": [
+      "Loose coupling",
+      "Event loop",
+      "Signed tokens",
+      "Full‑duplex"
+    ],
+    "correct_answer": "Full‑duplex"
+  },
+  {
+    "skill": "WebSockets",
+    "question": "Which of the following could be considered a competitor or alternative to WebSockets?",
+    "options": [
+      "Linux",
+      "Kafka",
+      "Docker",
+      "Flask"
+    ],
+    "correct_answer": "Docker"
+  },
+  {
+    "skill": "WebSockets",
+    "question": "Under which license is WebSockets primarily distributed?",
+    "options": [
+      "BSD",
+      "Proprietary",
+      "GPL‑2.0",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "BSD"
+  },
+  {
+    "skill": "Microservices",
+    "question": "Which category best describes Microservices?",
+    "options": [
+      "Architecture style",
+      "Styling language",
+      "Back‑end runtime",
+      "Markup language"
+    ],
+    "correct_answer": "Architecture style"
+  },
+  {
+    "skill": "Microservices",
+    "question": "Who primarily maintains Microservices?",
+    "options": [
+      "Independent",
+      "Foundation",
+      "Various",
+      "Community"
+    ],
+    "correct_answer": "Community"
+  },
+  {
+    "skill": "Microservices",
+    "question": "In which year was Microservices first released?",
+    "options": [
+      "1991",
+      "1994",
+      "1993",
+      "1995"
+    ],
+    "correct_answer": "1993"
+  },
+  {
+    "skill": "Microservices",
+    "question": "What is a common file extension associated with Microservices?",
+    "options": [
+      ".java",
+      NaN,
+      ".cs",
+      ".sql"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Microservices",
+    "question": "What is a primary use case of Microservices?",
+    "options": [
+      "Working with architecture style",
+      "Working with security standard",
+      "Working with testing framework",
+      "Working with styling language"
+    ],
+    "correct_answer": "Working with architecture style"
+  },
+  {
+    "skill": "Microservices",
+    "question": "Which command is commonly used to install or initialize Microservices?",
+    "options": [
+      "brew install pkg",
+      "apt-get install pkg",
+      "npm install package",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Microservices",
+    "question": "What is the primary programming language associated with Microservices?",
+    "options": [
+      NaN,
+      "Rust",
+      "JavaScript",
+      "Go"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Microservices",
+    "question": "Which of these is a key feature of Microservices?",
+    "options": [
+      "Routing",
+      "Data storage",
+      "Token grant types",
+      "Loose coupling"
+    ],
+    "correct_answer": "Loose coupling"
+  },
+  {
+    "skill": "Microservices",
+    "question": "Which of the following could be considered a competitor or alternative to Microservices?",
+    "options": [
+      "TensorFlow",
+      "HTML",
+      "Svelte",
+      "JWT"
+    ],
+    "correct_answer": "JWT"
+  },
+  {
+    "skill": "Microservices",
+    "question": "Under which license is Microservices primarily distributed?",
+    "options": [
+      "Public Domain",
+      "MIT",
+      "Proprietary",
+      "Apache‑2.0"
+    ],
+    "correct_answer": "MIT"
+  },
+  {
+    "skill": "React Native",
+    "question": "Which category best describes React Native?",
+    "options": [
+      "Database",
+      "Architecture style",
+      "Technology",
+      "Mobile framework"
+    ],
+    "correct_answer": "Mobile framework"
+  },
+  {
+    "skill": "React Native",
+    "question": "Who primarily maintains React Native?",
+    "options": [
+      "Community",
+      "Foundation",
+      "Independent",
+      "Various"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "React Native",
+    "question": "In which year was React Native first released?",
+    "options": [
+      "1993",
+      "1994",
+      "1995",
+      "1997"
+    ],
+    "correct_answer": "1994"
+  },
+  {
+    "skill": "React Native",
+    "question": "What is a common file extension associated with React Native?",
+    "options": [
+      NaN,
+      ".py",
+      ".go",
+      ".rs"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "React Native",
+    "question": "What is a primary use case of React Native?",
+    "options": [
+      "Working with programming language",
+      "Working with networking protocol",
+      "Working with security standard",
+      "Working with mobile framework"
+    ],
+    "correct_answer": "Working with mobile framework"
+  },
+  {
+    "skill": "React Native",
+    "question": "Which command is commonly used to install or initialize React Native?",
+    "options": [
+      "npm install package",
+      "apt-get install pkg",
+      "pip install package",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "React Native",
+    "question": "What is the primary programming language associated with React Native?",
+    "options": [
+      "C#",
+      NaN,
+      "Python",
+      "Python"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "React Native",
+    "question": "Which of these is a key feature of React Native?",
+    "options": [
+      "Native bridges",
+      "Data manipulation",
+      "Component‑based UI",
+      "Signed tokens"
+    ],
+    "correct_answer": "Native bridges"
+  },
+  {
+    "skill": "React Native",
+    "question": "Which of the following could be considered a competitor or alternative to React Native?",
+    "options": [
+      "TensorFlow",
+      "Vue",
+      "Flask",
+      "Angular"
+    ],
+    "correct_answer": "Vue"
+  },
+  {
+    "skill": "React Native",
+    "question": "Under which license is React Native primarily distributed?",
+    "options": [
+      "Apache‑2.0",
+      "Public Domain",
+      "MPL‑2.0",
+      "MIT"
+    ],
+    "correct_answer": "Public Domain"
+  },
+  {
+    "skill": "Flutter",
+    "question": "Which category best describes Flutter?",
+    "options": [
+      "Mobile framework",
+      "Programming language",
+      "Technology",
+      "Networking protocol"
+    ],
+    "correct_answer": "Mobile framework"
+  },
+  {
+    "skill": "Flutter",
+    "question": "Who primarily maintains Flutter?",
+    "options": [
+      "Various",
+      "Foundation",
+      "Independent",
+      "Community"
+    ],
+    "correct_answer": "Various"
+  },
+  {
+    "skill": "Flutter",
+    "question": "In which year was Flutter first released?",
+    "options": [
+      "2006",
+      "2011",
+      "2008",
+      "2005"
+    ],
+    "correct_answer": "2008"
+  },
+  {
+    "skill": "Flutter",
+    "question": "What is a common file extension associated with Flutter?",
+    "options": [
+      ".ts",
+      ".css",
+      ".yaml",
+      NaN
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Flutter",
+    "question": "What is a primary use case of Flutter?",
+    "options": [
+      "Working with mobile framework",
+      "Working with messaging system",
+      "Working with styling language",
+      "Working with back‑end runtime"
+    ],
+    "correct_answer": "Working with mobile framework"
+  },
+  {
+    "skill": "Flutter",
+    "question": "Which command is commonly used to install or initialize Flutter?",
+    "options": [
+      "apt-get install pkg",
+      NaN,
+      "npm install package",
+      "brew install pkg"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Flutter",
+    "question": "What is the primary programming language associated with Flutter?",
+    "options": [
+      "Rust",
+      "Kotlin",
+      NaN,
+      "JavaScript"
+    ],
+    "correct_answer": NaN
+  },
+  {
+    "skill": "Flutter",
+    "question": "Which of these is a key feature of Flutter?",
+    "options": [
+      "Data manipulation",
+      "Native bridges",
+      "Strong typing",
+      "Scalable compute"
+    ],
+    "correct_answer": "Native bridges"
+  },
+  {
+    "skill": "Flutter",
+    "question": "Which of the following could be considered a competitor or alternative to Flutter?",
+    "options": [
+      "Terraform",
+      "GraphQL",
+      "Jest",
+      "React"
+    ],
+    "correct_answer": "Terraform"
+  },
+  {
+    "skill": "Flutter",
+    "question": "Under which license is Flutter primarily distributed?",
+    "options": [
+      "MIT",
+      "Public Domain",
+      "GPL‑2.0",
+      "MPL‑2.0"
+    ],
+    "correct_answer": "Public Domain"
+  }
+]
