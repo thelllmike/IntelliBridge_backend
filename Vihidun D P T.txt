@@ -1,0 +1,89 @@
+--- Page 1 ---
+VIHIDUN D. P. T.
++94767317082 | tharooshavihidun@gmail.com | linkedin/vihidundpt | github/tharoosha
+EDUCATION
+University of Moratuwa: Colombo, SL July 2021 – July 2025
+B.Sc. (Hons) Computer Science & Engineering,
+Specializing Data Science and Engineering
+Minor in Mathematics (Statistics)
+• Relevant Coursework: Data Structures and Algorithms, Operating Systems, Big Data Analytics,
+Artificial Intelligence, Software Engineering, Data Science, Machine Learning, Algebra, Probability,
+Statistics, Calculus, Matrices, Data Mining, Data Visualization, IoT Devices and Application,
+Networking & Security.
+WORK EXPERIENCE
+Axiata Digital Labs: Data Science Intern – IOT & Middleware Team 11/2023 – 06/2024
+• Worked as a data scientist and developer in Catalyst Project (DTW24 Ignite | TM Forum) - “Mighty
+Minions: Unleashing Domain-Specific GenAI via SLMs”, Contributed to developing API specification
+for the TMForum Open API table and white paper - "Mighty Minions: Unleashing Domain-Specific
+GenAI via SLMs".
+• Experience with developing MVC application using Spring framework and angular & modern Java
+tooling and libraries, S3, Docker, Kubernetes, Redis and MySQL.
+• Contribute to the experiment bay with pre-built solution templates in the Axonect AI factory & to
+develop ML Ops features in the Axonect AI factory that leverage automating workflows, managing
+pipelines, and monitoring performance in AI models.
+• Worked with Internal data connectors which users with access privileges to store and share data in
+Axonect AI factory.
+• Worked with Dr. Lahiru Ariyasinghe (Associate Architect - Data Science) to develop long-term
+roadmaps and architecture to scale machine learning pipelines and relevance ML algorithms.
+• Experience with working clients and business partners (Attended the SLT board meeting with SLT
+CMO to present customer comment analysis and response generation use case to a business lead.)
+• Developed and integrated API solutions for social media comment analysis, call center SOP assistance,
+and revenue data analysis. Utilized prompt engineering, Kubernetes for load management, and rule-
+based root cause analysis to optimize customer engagement and system performance.
+PROJECTS
+Pluse: Social Media Platform for Fitness Enthusiasts weyora-digital/Pluse
+• Developed a social media platform tailored for fitness enthusiasts to share their fitness journey,
+workouts, and healthy lifestyle tips.
+• Designed and implemented using microservices architecture for scalability and maintainability And
+Integrated OAuth 2.0 for secure authentication and social logins.
+• Technologies Used – Keyclock, MongoDB, MySQL, Kafka, Spring Boot, Microservices architecture,
+React, Java.
+Vision Guard: Real-time HAR system of smart CCTV surveillance tharoosha/Vision_Guard
+• Real-time human detection, activity classification, and face identification from CCTV footage using 3D-
+Convolutional Neural Network. Enhance security with historical video analysis and user-friendly alerts.
+• Technologies Used – React, Python, FastAPI, CNN, Attention Mechanism, PyTorch
+
+--- Page 2 ---
+Depresio: Al-powered virtual mental consulting system. tharoosha/Depresio
+• Our system employs Natural Language Processing and ML for personalized mental health support,
+including emotion recognition, therapy recommendations, chatbot counseling and mental health
+prediction.
+• Technologies Used – React, Nodejs, Python, RAG, Langchain, LlamIndex, Prompt Engineering
+EasyVisit: Hospital Management System. tharoosha/EasyVisit
+• Developed a Hospital Management System with modules for managing doctor appointments,
+• laboratory tests, pharmacy operations, counseling services, and an admin dashboard.
+• Built with scalable architecture using Laravel and Vite for seamless integration between the backend
+and frontend and incorporated the Mistral Counseling Chatbot for virtual counseling.
+• Technologies Used: PHP, Laravel, MySQL, Vite, Mistral Counseling Chatbot.
+ArenaSL: Esports Management System. weyora-digital/ArenaSL
+• Developed Esport Management system with profile matching algorithm.
+• Admin portal to add games, host events and get user registration list, and user portal to register for the
+games and get event recommendations based on their previous preferences.
+• Technologies Used: React, Flask, Neo4j
+Intergalactic: Mobile app for interplanetary travel. tharoosha/DevDreamers_Intergalactic
+• Interplanetary travel app, Prioritize a user-friendly, secure booking process. Elevate space travel with
+cutting-edge efficiency and a Deep Learning- based brain tumor identification system for astronauts.
+• Technologies Used – React Native, Python, SQLite
+Store Sales Time Series Forecasting: A model that predicts the sales of the items sold.
+• Applying various Time Series Forecasting methods, such as ARIMA, SARIMA, and Regression models,
+to accurately predict the unit sales for thousands of items sold at different stores.
+ACHIEVEMENTS
+• Champion of he Data Storm 5.0 Hackathon which is sri lanka’s premier advanced analytics
+competition powered by OCTAVE.
+• Winner of the AIF MindGen Internal Hackathon in Axiata Digital Labs which is showcasing
+innovative solutions in artificial intelligence and machine learning to address real-world challenges.
+• Semi Finalist of the Data Storm 4.0 Hackathon which is sri lanka’s premier advanced analytics
+competition powered by OCTAVE.
+SKILLS
+• C, C++, Java (Spring Boot/Native, JUnit), Python, JavaScript, Git, GraphQL, SQL, Assembly
+• Operating Systems, Microservices, Backend, AWS, GCP, Agile, Docker, Flask
+• AWS, GCP, Docker, Rabbit MQ, Kafka
+• MySQL, MongoDB, PostgreSQL, Apache Cassandra, Firebase, ChromaDB, Neo4j
+• DVC, MLFlow, AirFlow, TF-extended, Nifi, TesnforFlow, Pytorch
+REFERENCES
+• Prof. (Ms.) Meedeniya D.A.
+Professor, Dept. of Computer Science & Engineering, University of Moratuwa dulanim@cse.mrt.ac.lk
+• Dr. Chathuranga Hettiarachchi
+Lecturer, Dept of Computer Science & Engineering, University of Moratuwa
+chathuranga@cse.mrt.ac.lk
+
