@@ -15,6 +15,7 @@ from jd_analizer import analyze_text
 from cv_analizer import extract_skills_from_file
 from routers.user import router as user_router
 from routers.match_skills import router as match_router
+from routers.quiz import router as quiz_router
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
 MONGODB_URI = (
@@ -32,6 +33,7 @@ cv_col = db["cv_skill_extraction"]
 app = FastAPI()
 app.include_router(user_router)
 app.include_router(match_router) 
+app.include_router(quiz_router)  
 
 origins = ["http://localhost:3000", "http://127.0.0.1:3000"]
 app.add_middleware(
