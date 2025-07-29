@@ -103,34 +103,96 @@ async def upload_pdf(
         "skill_extraction": skill_data,
     })
 
-# ── ENDPOINT: GET LAST SAVED JD FOR USER ──────────────────────────────────────
+
 @app.get("/last-jd/{user_id}")
 async def get_last_jd(user_id: str):
-    # find the most recent by timestamp
+    # fetch the most recent JD doc
     cursor = jd_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1)
     docs   = await cursor.to_list(length=1)
     if not docs:
         raise HTTPException(404, "No JD records found for this user")
 
     doc = docs[0]
-    # convert and remove ObjectId
-    doc_id = doc.pop("_id")
-    doc["id"] = str(doc_id)
-    return doc
 
-# ── ENDPOINT: GET LAST SAVED CV FOR USER ─────────────────────────────────────
+    # 1) Pop off the ObjectId and convert to string
+    _id = doc.pop("_id")
+    doc["id"] = str(_id)
+
+    # 2) Build your formatted lines
+    #    e.g. ["Grid -> SKILL_PREFERRED", "Vue/Angular -> SKILL_PREFERRED", ...]
+    formatted = [
+        f"{ent['text']} -> {ent['label']}"
+        for ent in doc.get("entities", [])
+    ]
+
+    # 3) Return both raw and formatted
+    return {
+        "id":                  doc["id"],
+        "jd_skills":  formatted,
+    
+    }
+
+
 @app.get("/last-cv/{user_id}")
 async def get_last_cv(user_id: str):
+    # Fetch the most recent CV record
     cursor = cv_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1)
     docs   = await cursor.to_list(length=1)
     if not docs:
         raise HTTPException(404, "No CV records found for this user")
 
     doc = docs[0]
-    doc_id = doc.pop("_id")
-    doc["id"] = str(doc_id)
-    return doc
+    # Remove the ObjectId and expose it as a string
+    _id = doc.pop("_id")
+    doc["id"] = str(_id)
 
+    # Extract your list of skills
+    all_skills = doc.get("skill_data", {}).get("all_skills", [])
+
+    # Build the “- SkillName” list
+    formatted_skills = [f"- {skill}" for skill in all_skills]
+
+    return {
+        "id":               doc["id"],
+        "resume_skills": formatted_skills,
+     
+    }
+
+@app.get("/last-all/{user_id}")
+async def get_last_all(user_id: str):
+    # 1) Load most recent JD
+    jd_cursor = jd_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1)
+    jd_docs   = await jd_cursor.to_list(length=1)
+    if not jd_docs:
+        raise HTTPException(404, "No JD records found for this user")
+    jd_doc = jd_docs[0]
+    jd_id  = jd_doc.pop("_id")
+    # format JD entities
+    jd_formatted = [f"{ent['text']} -> {ent['label']}" for ent in jd_doc.get("entities", [])]
+
+    # 2) Load most recent CV
+    cv_cursor = cv_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1)
+    cv_docs   = await cv_cursor.to_list(length=1)
+    if not cv_docs:
+        raise HTTPException(404, "No CV records found for this user")
+    cv_doc = cv_docs[0]
+    cv_id  = cv_doc.pop("_id")
+    # format CV skills
+    cv_skills = cv_doc.get("skill_data", {}).get("all_skills", [])
+    cv_formatted = [f"- {skill}" for skill in cv_skills]
+
+    # 3) Return combined
+    return {
+        "jd": {
+            
+            "formatted":     jd_formatted,
+            
+        },
+        "cv": {
+            "formatted":     cv_formatted,
+           
+        }
+    }
 # ── RUN LOCAL ────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     import uvicorn
