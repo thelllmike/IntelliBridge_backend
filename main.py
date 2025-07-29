@@ -14,6 +14,7 @@ import motor.motor_asyncio
 from jd_analizer import analyze_text
 from cv_analizer import extract_skills_from_file
 from routers.user import router as user_router
+from routers.match_skills import router as match_router
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
 MONGODB_URI = (
@@ -26,9 +27,11 @@ db     = client["job_analysis_db"]
 jd_col = db["jd_entities"]
 cv_col = db["cv_skill_extraction"]
 
+
 # ── FASTAPI APP ──────────────────────────────────────────────────────────────
 app = FastAPI()
 app.include_router(user_router)
+app.include_router(match_router) 
 
 origins = ["http://localhost:3000", "http://127.0.0.1:3000"]
 app.add_middleware(
