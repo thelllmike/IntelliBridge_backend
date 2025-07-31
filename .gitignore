@@ -30,6 +30,7 @@ ENV/
 .venv/
 env.bak/
 venv.bak/
+.env/
 
 # Pyenv
 .python-version
