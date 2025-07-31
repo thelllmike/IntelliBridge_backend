@@ -2,12 +2,11 @@
 
 import os
 import re
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from sentence_transformers import SentenceTransformer, util
 import motor.motor_asyncio
 
 # ── DB SETUP ─────────────────────────────────────────────────────────────────
-# You can also pull this from your existing MONGODB_URI in main.py via env var
 MONGODB_URI = os.getenv(
     "MONGODB_URI",
     "mongodb+srv://yuvinsanketh10:EPveklyFAO7CeP3N"
@@ -48,7 +47,10 @@ def parse_resume_skills(skills: list[str]) -> list[str]:
 
 # ── ENDPOINT: MATCH SKILLS ───────────────────────────────────────────────────
 @router.get("/{user_id}")
-async def match_skills(user_id: str):
+async def match_skills(
+    user_id: str,
+    threshold: float = Query(0.5, ge=0.0, le=1.0, description="Minimum similarity score to include a match")
+):
     # 1) fetch latest JD
     jd_cursor = jd_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1)
     jd_docs   = await jd_cursor.to_list(length=1)
@@ -76,15 +78,18 @@ async def match_skills(user_id: str):
     cv_emb   = model.encode(cv_skills, convert_to_tensor=True)
     hits     = util.semantic_search(cv_emb, jd_emb, top_k=1)
 
-    # 4) build results
+    # 4) build results applying threshold
     matches = []
     for i, hit_list in enumerate(hits):
+        if not hit_list:
+            continue
         top = hit_list[0]
+        score = float(top.get("score", 0.0))
+        if score < threshold:
+            continue  # skip below threshold
+        jd_skill = jd_skills[top["corpus_id"]]
         matches.append({
-            "resume_skill": cv_skills[i],
-            "jd_skill":     jd_skills[top["corpus_id"]],
-            "label":        jd_map[jd_skills[top["corpus_id"]]],
-            "score":        round(float(top["score"]), 3)
+            "technology": cv_skills[i],
         })
 
-    return {"user_id": user_id, "matches": matches}
+    return {"matches": matches}

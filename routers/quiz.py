@@ -4,7 +4,7 @@ import os
 import re
 import json
 import math
-from typing import List
+from typing import List, Dict
 from pathlib import Path
 from collections import defaultdict
 
@@ -29,7 +29,7 @@ cv_col   = db["cv_skill_extraction"]
 
 # ── LOAD MODELS & DATA ────────────────────────────────────────────────────────
 rf         = joblib.load("rf_hire_model.joblib")
-st_model   = SentenceTransformer('all-MiniLM-L6-v2')
+st_model   = SentenceTransformer("all-MiniLM-L6-v2")
 MCQ_FILE   = Path(__file__).parent.parent / "mcq.json"
 all_mcqs   = json.loads(MCQ_FILE.read_text(encoding="utf-8"))
 
@@ -55,12 +55,12 @@ class Answer(BaseModel):
     answer:      str
 
 class QuizResult(BaseModel):
-    selected:    bool
-    probability: float
+    selected:        bool
+    overall_percent: float           # average over participated skills
+    breakdown:       Dict[str, float]  # only skills the user answered
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
 def parse_jd_entities(text: str) -> dict[str, str]:
-    """Parse lines 'Skill -> LABEL' into {Skill: LABEL}."""
     pat = r'^\s*(.+?)\s*->\s*(SKILL_[A-Z]+)\s*$'
     out = {}
     for ln in text.splitlines():
@@ -70,7 +70,6 @@ def parse_jd_entities(text: str) -> dict[str, str]:
     return out
 
 def parse_resume_skills(raw: List[str]) -> List[str]:
-    """Clean a list like ['- Skill', …] → ['Skill', …], preserving order."""
     seen = set()
     out  = []
     for e in raw:
@@ -104,16 +103,16 @@ async def get_quiz(user_id: str):
     jd_skills = list(jd_map.keys())
 
     # Clean resume skills
-    raw_skills   = cv_doc["skill_data"]["all_skills"]
-    resume_list  = parse_resume_skills([f"- {s}" for s in raw_skills])
+    raw_skills  = cv_doc["skill_data"]["all_skills"]
+    resume_list = parse_resume_skills([f"- {s}" for s in raw_skills])
 
     # Semantic matching
-    jd_emb    = st_model.encode(jd_skills, convert_to_tensor=True)
-    cv_emb    = st_model.encode(resume_list, convert_to_tensor=True)
-    hits      = util.semantic_search(cv_emb, jd_emb, top_k=1)
+    jd_emb = st_model.encode(jd_skills, convert_to_tensor=True)
+    cv_emb = st_model.encode(resume_list, convert_to_tensor=True)
+    hits   = util.semantic_search(cv_emb, jd_emb, top_k=1)
 
-    THRESH    = 0.50
-    matched   = {
+    THRESH = 0.60
+    matched = {
         resume_list[i]
         for i, h in enumerate(hits)
         if h and h[0]["score"] >= THRESH
@@ -124,7 +123,6 @@ async def get_quiz(user_id: str):
     for idx, q in enumerate(all_mcqs):
         if q.get("skill") not in matched:
             continue
-
         clean_opts = []
         for opt in q.get("options", []):
             if isinstance(opt, str):
@@ -133,7 +131,6 @@ async def get_quiz(user_id: str):
                 clean_opts.append("")
             else:
                 clean_opts.append(str(opt))
-
         questions.append(
             Question(
                 id=idx,
@@ -153,30 +150,30 @@ async def get_quiz(user_id: str):
 async def submit_quiz(user_id: str, answers: List[Answer]):
     jd_doc, cv_doc = await fetch_latest_docs(user_id)
 
-    # Rebuild JD dict
+    # Rebuild JD map
     jd_lines = [f"{e['text']} -> {e['label']}" for e in jd_doc["entities"]]
     jd_map   = parse_jd_entities("\n".join(jd_lines))
 
-    # Recompute matched skills (same logic as above)
-    resume_raw = cv_doc["skill_data"]["all_skills"]
+    # Recompute matched skills
+    resume_raw  = cv_doc["skill_data"]["all_skills"]
     resume_list = parse_resume_skills([f"- {s}" for s in resume_raw])
-    jd_emb     = st_model.encode(list(jd_map.keys()), convert_to_tensor=True)
-    cv_emb     = st_model.encode(resume_list, convert_to_tensor=True)
-    hits       = util.semantic_search(cv_emb, jd_emb, top_k=1)
-    matched    = {
+    jd_emb   = st_model.encode(list(jd_map.keys()), convert_to_tensor=True)
+    cv_emb   = st_model.encode(resume_list, convert_to_tensor=True)
+    hits     = util.semantic_search(cv_emb, jd_emb, top_k=1)
+    matched  = {
         resume_list[i]
         for i, h in enumerate(hits)
         if h and h[0]["score"] >= 0.50
     }
 
-    # Map question IDs → MCQ entries
+    # Map question IDs → MCQs
     quiz_map = {
         idx: q
         for idx, q in enumerate(all_mcqs)
         if q.get("skill") in matched
     }
 
-    # Tally answers
+    # Tally answers per skill
     tally = defaultdict(lambda: [0, 0])
     for ans in answers:
         q = quiz_map.get(ans.question_id)
@@ -184,35 +181,26 @@ async def submit_quiz(user_id: str, answers: List[Answer]):
             continue
         skill = q["skill"]
         tally[skill][1] += 1
-        if ans.answer == q["correct_answer"]:
+        if ans.answer == q.get("correct_answer"):
             tally[skill][0] += 1
 
-    # Compute features
-    total_w = sum(label_weights[l] for l in jd_map.values())
-    wsum    = 0.0
-    covered = 0
-    feats   = {}
-    for skill, label in jd_map.items():
-        w = label_weights[label]
-        correct, total = tally.get(skill, (0, 0))
-        pct = (correct / total) if total else 0.0
-        feats[f"{skill}_wt_score"] = pct * w
-        wsum += pct * w
-        if total > 0:
-            covered += 1
+    # Compute breakdown and overall percentage over participated skills only
+    breakdown = {}
+    total_pct = 0
+    count     = 0
 
-    feats["overall_weighted_avg"] = wsum / total_w
-    feats["skills_covered_ratio"] = covered / len(jd_map)
-    feats["missing_skills_count"] = len(jd_map) - covered
+    for skill, (correct, total_q) in tally.items():
+        if total_q > 0:
+            pct = (correct / total_q) * 100
+            breakdown[skill] = round(pct, 1)
+            total_pct += pct
+            count += 1
 
-    # Build DataFrame, align to model features
-    df = pd.DataFrame([feats])
-    df.columns = [c.replace('-', '\u2011') for c in df.columns]
-    expected = rf.feature_names_in_
-    df = df.reindex(columns=expected, fill_value=0)
+    overall_pct = round(total_pct / count, 1) if count else 0.0
+    selected    = overall_pct >= 30.0
 
-    # Predict
-    pred   = rf.predict(df)[0]
-    proba  = float(rf.predict_proba(df)[0][1])
-
-    return QuizResult(selected=bool(pred), probability=round(proba, 3))
+    return QuizResult(
+        selected=selected,
+        overall_percent=overall_pct,
+        breakdown=breakdown
+    )

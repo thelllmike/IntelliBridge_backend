@@ -15,7 +15,7 @@ from jd_analizer import analyze_text
 from cv_analizer import extract_skills_from_file
 from routers.user import router as user_router
 from routers.match_skills import router as match_router
-from routers.quiz import router as quiz_router
+from routers.quizs import router as quiz_router
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
 MONGODB_URI = (
