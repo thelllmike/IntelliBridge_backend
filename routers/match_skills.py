@@ -4,7 +4,7 @@ import os
 import re
 import json
 import logging
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
@@ -29,9 +29,9 @@ jd_col = db["jd_entities"]
 cv_col = db["cv_skill_extraction"]
 
 # ── OpenAI client setup ───────────────────────────────────────────────────────
+# WARNING: fallback key is for local testing only. Move to env var in production.
 OPENAI_API_KEY = os.getenv(
     "OPENAI_API_KEY",
-    # fallback only for quick local testing; replace or remove for production
     "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"
 )
 if not OPENAI_API_KEY:
@@ -48,7 +48,7 @@ router = APIRouter(prefix="/match-skills", tags=["match-skills"])
 class QuizQuestion(BaseModel):
     question: str
     options: List[str]
-    answer: str
+    answer: str  # correct answer
 
 class MatchWithQuestions(BaseModel):
     technology: str
@@ -59,6 +59,15 @@ class MatchWithQuestions(BaseModel):
 class MatchResponse(BaseModel):
     user_id: str
     matches: List[MatchWithQuestions]
+
+class AnswerItem(BaseModel):
+    technology: str
+    question: str
+    correct_answer: str
+    user_answer: str
+
+class EvaluateRequest(BaseModel):
+    answers: List[AnswerItem]
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
 def parse_jd_entities(text: str) -> Dict[str, str]:
@@ -104,14 +113,13 @@ def extract_json_array(raw: str) -> List[dict]:
 
 def generate_questions_for_technology(technology: str, num_questions: int = 10) -> List[Dict]:
     """
-    Use ChatGPT to generate MCQs (with answer) for a given technology.
+    Use ChatGPT to generate MCQs (with correct answer) for a given technology.
     """
-    system_prompt = "You are an expert software engineering quiz writer. Generate clear multiple-choice questions."
+    system_prompt = "You are an expert software engineering quiz writer. Generate clear, concise multiple-choice questions."
     user_prompt = (
         f"Generate {num_questions} multiple-choice questions about \"{technology}\". "
-        "Each question must have exactly 4 options. "
-        "Include the correct answer in the field \"answer\". "
-        "Respond with a single valid JSON array whose elements look like:\n"
+        "Each question must have exactly 4 options. Include the correct answer in the field \"answer\". "
+        "Respond with a single valid JSON array. Example element:\n"
         '{\n'
         '  "question": "What is JSX in React?",\n'
         '  "options": ["A syntax extension for JavaScript", "A database", "A CSS framework", "A build tool"],\n'
@@ -141,7 +149,7 @@ def generate_questions_for_technology(technology: str, num_questions: int = 10) 
     try:
         items = extract_json_array(raw)
     except Exception as e:
-        raise RuntimeError(f"Failed to parse JSON for {technology}: {e}; raw snippet: {raw[:1000]!r}")
+        raise RuntimeError(f"Failed to parse model output for {technology}: {e}; raw snippet: {raw[:1000]!r}")
 
     validated: List[Dict] = []
     for obj in items:
@@ -160,18 +168,13 @@ def generate_questions_for_technology(technology: str, num_questions: int = 10) 
     return validated
 
 async def fetch_latest_jd_and_cv(user_id: str):
-    jd_cursor = jd_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1)
-    jd_docs = await jd_cursor.to_list(length=1)
+    jd_docs = await jd_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1).to_list(length=1)
     if not jd_docs:
         raise HTTPException(404, "No JD records found")
-    jd_doc = jd_docs[0]
-
-    cv_cursor = cv_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1)
-    cv_docs = await cv_cursor.to_list(length=1)
+    cv_docs = await cv_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1).to_list(length=1)
     if not cv_docs:
         raise HTTPException(404, "No CV records found")
-    cv_doc = cv_docs[0]
-    return jd_doc, cv_doc
+    return jd_docs[0], cv_docs[0]
 
 # ── ENDPOINT: MATCH SKILLS + QUESTION GENERATION ───────────────────────────────
 @router.get("/{user_id}", response_model=MatchResponse)
@@ -224,7 +227,7 @@ async def match_skills_and_generate(
                 questions=questions_schema
             ))
         except Exception as e:
-            logger.exception("Failed to generate for %s: %s", technology, e)
+            logger.exception("Failed generation for %s: %s", technology, e)
             matches_out.append(MatchWithQuestions(
                 technology=technology,
                 score=round(score, 3),
@@ -233,3 +236,18 @@ async def match_skills_and_generate(
             ))
 
     return MatchResponse(user_id=user_id, matches=matches_out)
+
+# ── ENDPOINT: SUBMIT ANSWERS & SCORE ───────────────────────────────────────────
+@router.post("/{user_id}/evaluate", response_model=Dict[str, Tuple[int, int]])
+async def evaluate(user_id: str, req: EvaluateRequest):
+    if not req.answers:
+        raise HTTPException(400, "No answers provided.")
+    tally: Dict[str, List[int]] = {}
+    for ans in req.answers:
+        tech = ans.technology.strip()
+        correct, total = tally.get(tech, [0, 0])
+        total += 1
+        if ans.user_answer.strip().lower() == ans.correct_answer.strip().lower():
+            correct += 1
+        tally[tech] = [correct, total]
+    return {tech: (counts[0], counts[1]) for tech, counts in tally.items()}
