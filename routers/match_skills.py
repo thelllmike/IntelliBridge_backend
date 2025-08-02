@@ -1,10 +1,8 @@
-# routers/match_skills.py
-
 import os
 import re
 import json
 import logging
-from typing import List, Dict, Optional, Tuple, Any
+from typing import List, Dict, Optional, Tuple
 
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import PlainTextResponse
@@ -17,30 +15,38 @@ from openai import OpenAI
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("match_skills")
 
-# ── DB SETUP ─────────────────────────────────────────────────────────────────
-MONGODB_URI = os.getenv(
-    "MONGODB_URI",
-    "mongodb+srv://yuvinsanketh10:EPveklyFAO7CeP3N"
-    "@cluster0.5jwuszj.mongodb.net/"
+# ── OPENAI CONFIGURATION (embedded key as requested) ─────────────────────────
+# WARNING: embedding the API key in code is insecure. Rotate this key if it's exposed publicly.
+OPENAI_API_KEY = ""
+openai_client = OpenAI(api_key=OPENAI_API_KEY)
+
+def is_auth_error(exc: Exception) -> bool:
+    msg = str(exc).lower()
+    return "incorrect api key" in msg or "invalid" in msg or "401" in msg
+
+# Optional early OpenAI check (logs warning if key invalid)
+try:
+    openai_client.models.list()
+except Exception as e:
+    logger.warning("OpenAI key validation failed (you will see failures later): %s", e)
+
+# ── MONGODB SETUP (embedded URI) ─────────────────────────────────────────────
+# WARNING: embedding credentials in code is insecure. Make sure this account has proper roles and your IP is allowed in Atlas.
+MONGODB_URI = (
+    "mongodb+srv://yuvinsanketh10:EPveklyFAO7CeP3N@cluster0.5jwuszj.mongodb.net/"
     "job_analysis_db?retryWrites=true&w=majority&appName=Cluster0"
 )
-client = motor.motor_asyncio.AsyncIOMotorClient(MONGODB_URI)
+client = motor.motor_asyncio.AsyncIOMotorClient(MONGODB_URI, serverSelectionTimeoutMS=5000)
 db = client["job_analysis_db"]
 jd_col = db["jd_entities"]
 cv_col = db["cv_skill_extraction"]
 
-# ── OpenRouter / OpenAI client setup ──────────────────────────────────────────
-OPENROUTER_API_KEY = os.getenv(
-    "OPENROUTER_API_KEY",
-    "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"
-)
-if not OPENROUTER_API_KEY:
-    raise RuntimeError("OPENROUTER_API_KEY environment variable is required.")
-
-OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
-OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "deepseek/deepseek-chat-v3-0324:free")
-
-openai_client = OpenAI(api_key=OPENROUTER_API_KEY, base_url=OPENROUTER_BASE_URL)
+# Ping to fail fast if auth/network broken
+async def verify_mongo_connection():
+    try:
+        await client.admin.command("ping")
+    except Exception as e:
+        raise RuntimeError(f"MongoDB connection/authentication failed: {e}")
 
 # ── EMBEDDING MODEL ──────────────────────────────────────────────────────────
 model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -128,20 +134,18 @@ def generate_questions_for_technology(technology: str, num_questions: int = 10) 
 
     try:
         resp = openai_client.chat.completions.create(
-            model=OPENROUTER_MODEL,
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
             temperature=0.7,
             max_tokens=1400,
-            extra_headers={
-                "HTTP-Referer": "https://yourapp.example",
-                "X-Title": "MatchSkillsQuiz",
-            },
         )
     except Exception as e:
-        raise RuntimeError(f"OpenRouter request failed for {technology}: {e}")
+        if is_auth_error(e):
+            raise RuntimeError(f"OpenAI authentication failed for {technology}: {e}")
+        raise RuntimeError(f"OpenAI request failed for {technology}: {e}")
 
     try:
         raw = resp.choices[0].message.content
@@ -194,7 +198,6 @@ def fallback_grade(answers: List[AnswerItem]) -> Tuple[Dict[str, Tuple[int, int]
     return per_skill, details
 
 def grade_with_llm(answers: List[AnswerItem]) -> Tuple[Dict[str, Tuple[int, int]], List[dict]]:
-    # Build a compact representation for the model
     payload = []
     for a in answers:
         payload.append({
@@ -215,29 +218,23 @@ def grade_with_llm(answers: List[AnswerItem]) -> Tuple[Dict[str, Tuple[int, int]
 
     try:
         resp = openai_client.chat.completions.create(
-            model=OPENROUTER_MODEL,
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
-            temperature=0.0,  # deterministic grading
+            temperature=0.0,
             max_tokens=1200,
-            extra_headers={
-                "HTTP-Referer": "https://yourapp.example",
-                "X-Title": "MatchSkillsGrader",
-            },
         )
         raw = resp.choices[0].message.content
         parsed = json.loads(raw)
         summary = parsed.get("summary", {})
         details = parsed.get("details", [])
         per_skill: Dict[str, Tuple[int, int]] = {}
-        # Normalize summary into tuples
         for tech, v in summary.items():
             correct = int(v.get("correct", 0))
             total = int(v.get("total", 0))
             per_skill[tech] = (correct, total)
-        # If LLM didn't supply expected summary, fallback to computing from details
         if not per_skill and isinstance(details, list):
             for d in details:
                 tech = d.get("technology", "")
@@ -253,6 +250,9 @@ def grade_with_llm(answers: List[AnswerItem]) -> Tuple[Dict[str, Tuple[int, int]
         return fallback_grade(answers)
 
 async def fetch_latest_jd_and_cv(user_id: str):
+    # verify mongo connection early
+    await verify_mongo_connection()
+
     jd_docs = await jd_col.find({"user_id": user_id}).sort("timestamp", -1).limit(1).to_list(length=1)
     if not jd_docs:
         raise HTTPException(404, "No JD records found")
@@ -323,10 +323,8 @@ async def evaluate(
     if not req.answers:
         raise HTTPException(400, "No answers provided.")
 
-    # Grade answers via Deepseek LLM (with fallback)
     per_skill, details = grade_with_llm(req.answers)
 
-    # Build top_skills sorted descending by percentage
     top_skills = []
     total_percent = 0.0
     count = 0
@@ -338,10 +336,9 @@ async def evaluate(
     top_skills.sort(key=lambda x: -x["percentage"])
 
     overall_avg = round(total_percent / count, 1) if count else 0.0
-    selected = overall_avg >= 50.0  # simple threshold
+    selected = overall_avg >= 50.0
 
     if compact:
-        # produce lines like: "React": (5, 10),   # 50%
         lines = []
         max_skill_len = max((len(s) for s in per_skill.keys()), default=0)
         for skill, (correct, total) in per_skill.items():
@@ -359,6 +356,6 @@ async def evaluate(
         "selected": selected,
         "average_percentage": overall_avg,
         "top_skills": top_skills,
-        "details": details,  # each question-level evaluation
+        "details": details,
     }
     return response
