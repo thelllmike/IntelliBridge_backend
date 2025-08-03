@@ -1,0 +1,71 @@
+--- Page 1 ---
+PASINDU SHYAMINDA
+ASSOCIATE SOFTWARE ENGINEER
+Malabe, Sri Lanka 0766069980 pasindushyaminda.w@gmail.com
+https://www.linkedin.com/in/pasindu-shyaminda/ https://github.com/IT21016202
+PROFILE SUMMARY
+I have 1+ years of experience. Also, I’m a 4th Year Software Engineering Undergraduate at SLIIT. I have completed
+an internship which enhanced my skills. I’m a problem solver, self-motivated, and fast-learning student. Seeking a
+full-time position.
+WORK EXPERIENCE
+Associate Software Engineer Feb, 2024 - Oct - 2024
+Softmint Software Solutions (PVT) LTD - On Site
+Contributed to developing an ongoing Banking web application, Finance management web application,
+Restaurant management web application, Travel Booking web application and Event booking web application.
+Skills - Laravel, Codeignitor, JavaScript, MySQL, cPanel, WordPress, Bootstrap
+Intern Software Engineer March, 2023 - Sep, 2023
+Softmint Software Solutions (PVT) LTD - Remote
+Contributed to developing an ongoing E-commerce website, NFT auction website, and Partner portal website.
+Skills - MERN, Laravel, Vue JS, MySQL, Git, Github, cPanel, Bootstrap
+Hands-on experiance with Augmented Reality using Three JS.
+EDUCATION
+BSc (Hons) in Information Technology specialzing in Software Engineering 2021 Jan - Present
+Sri Lanka Institute of Information Technology (SLIIT) - Malabe
+Skills - OOP, Data Structures, Design Patterns, Software Testing, Agile, UI/ UX, Software Security
+G.C.E. Advanced Level Examination - Biological Science Stream 2019 August
+Index Number - 7910940
+1C Pass and 2S Passes
+PROJECTS
+MediFind - Medical Solution Mobile App (React Native) Sep 2023 - Oct 2023
+https://github.com/IT21016202/medifind-medical-solution-mobile-app-react-native
+Medifind is a mobile app for healthcare. It caters to patients, medical centers, blood donors, and doctors. Patients can
+locate medical facilities, book appointments, order medications, find blood donors, and contact doctors. Medical
+centers can manage patient orders and their information, while blood donors can register to donate. It streamlines
+healthcare tasks.
+
+--- Page 2 ---
+Task Management Web App (Laravel, Vue JS) May 2023
+https://github.com/IT21016202/Task-Management-Web-App-Laravel-VueJS
+This application allows users to efficiently manage their tasks by adding, editing, deleting, and viewing tasks. Users can
+also mark tasks as completed or not. The web app includes a built-in authentication system provided by Laravel for
+secure access. The user interface is intuitive and user-friendly, ensuring a seamless experience
+Natura - Online Ayurwedic Product Selling Platform (MERN) Apr 2023 - May 2023
+https://github.com/IT21016202/Natura-Online-Ayurwedic-Product-Selling-Platform-MERN
+The “Natura” web application is an E-commerce platform that specializes in selling Ayurvedic products. It has been
+developed using the MERN stack. The application leverages Firebase Storage for storing and managing product images
+TravelSavvy - Online Tourism Platform (MERN) Apr 2023 - May 2023
+https://github.com/IT21016202/TravelSavvy-Online-Tuorism-Platform-MERN
+“Travel Savvy” is an online Tourism Management and culture-promoting system. This project is developed to manage
+the Sri Lanka tourist section more efficiently and to promote Sri Lankan culture and its diversity to the world.
+Instania - Online Food Ordering Application - Andriod Development (JAVA) Jul 2022 - Oct 2022
+https://github.com/IT21016202/Online_Food_Delivery_App
+"Instania" is an online food delivery app that allows customers to order customized past foods. It offers features like
+user registration, order placement, secure login/logout, profile management, and food menu item handling. The app
+also includes a payment gateway demonstration for convenient transactions.
+TECHNICAL SKILLS SOFT SKILLS
+React JS MySQL Problem Solving Team Working
+React Native MS SQL Fast Learning Critical Thinking
+Responsible Time Management
+Vue JS Mongo DB
+Express JS Firebase
+Node JS JAVA TOOLS & SOFTAWRE
+Laravel WordPress VS Code Postman
+Android Development (JAVA) Git & Github Adobe Photoshop
+Intellij Idea cPanel
+NON-RELATED REFERENCES
+K.B.A.B.Chathurika N.H.P. Ravi Supunya Swarnakantha
+Academic Coordinator, Matara Centre/ Lecturer, Lecturer Faculty of Computing
+SLIIT | Matara Centre Department of Information Technology
+041 754 4507 | 071 604 3746 SLIIT | Matara Center
+ravi.s@sliit.lk
+
