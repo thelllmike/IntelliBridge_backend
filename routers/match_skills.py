@@ -11,6 +11,10 @@ import motor.motor_asyncio
 from sentence_transformers import SentenceTransformer, util
 from openai import OpenAI
 
+# External ML persistence / frame
+import joblib
+import pandas as pd  # for aligning feature vector before prediction
+
 # ── Logging setup ─────────────────────────────────────────────────────────────
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("match_skills")
@@ -78,6 +82,47 @@ class AnswerItem(BaseModel):
 
 class EvaluateRequest(BaseModel):
     answers: List[AnswerItem]
+
+# ── HIRE MODEL / FEATURE HELPERS ──────────────────────────────────────────────
+LABEL_WEIGHTS = {
+    "SKILL_REQUIRED": 1.0,
+    "SKILL_PREFERRED": 0.6,
+    "SKILL_BONUS": 0.3,
+}
+
+def compute_candidate_features_from_grade(
+    quiz_results: Dict[str, Tuple[int, int]],
+    jd_skills: Dict[str, str],
+    label_weights: Dict[str, float],
+) -> Dict[str, float]:
+    feats: Dict[str, float] = {}
+    total_weight = sum(label_weights.get(label, 0.0) for label in jd_skills.values())
+    weighted_sum = 0.0
+    covered = 0
+
+    for skill, label in jd_skills.items():
+        w = label_weights.get(label, 0.0)
+        correct, total_q = quiz_results.get(skill, (0, 0))
+        pct = (correct / total_q * 100) if total_q > 0 else 0.0
+        if total_q > 0 and skill in quiz_results:
+            covered += 1
+        weighted = pct * w
+        feats[f"{skill}_wt_score"] = weighted
+        weighted_sum += weighted
+
+    feats["overall_weighted_avg"] = (weighted_sum / total_weight) if total_weight > 0 else 0.0
+    feats["skills_covered_ratio"] = (covered / len(jd_skills)) if jd_skills else 0.0
+    feats["missing_skills_count"] = len(jd_skills) - covered
+    return feats
+# ── HIRE MODEL LOADING ──────────────────────────────────────────────────────
+def load_hire_model(path: str = "rf_hire_model.joblib"):
+    try:
+        return joblib.load(path)
+    except FileNotFoundError:
+        logger.warning("Hire model file not found at %s", path)
+    except Exception as e:
+        logger.warning("Failed loading hire model from %s: %s", path, e)
+    return None
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
 def parse_jd_entities(text: str) -> Dict[str, str]:
@@ -313,7 +358,7 @@ async def match_skills_and_generate(
 
     return MatchResponse(user_id=user_id, matches=matches_out)
 
-# ── ENDPOINT: SUBMIT ANSWERS & GRADE VIA LLM ───────────────────────────────────
+# ── ENDPOINT: SUBMIT ANSWERS & GRADE VIA LLM + HIRE DECISION ───────────────────
 @router.post("/{user_id}/evaluate")
 async def evaluate(
     user_id: str,
@@ -323,8 +368,39 @@ async def evaluate(
     if not req.answers:
         raise HTTPException(400, "No answers provided.")
 
+    # Fetch latest JD and CV to get skill labels (needed for feature construction)
+    jd_doc, cv_doc = await fetch_latest_jd_and_cv(user_id)
+    jd_list = [f"{e['text']} -> {e['label']}" for e in jd_doc.get("entities", [])]
+    jd_map = parse_jd_entities("\n".join(jd_list))  # skill -> label
+
     per_skill, details = grade_with_llm(req.answers)
 
+    # Build quiz_results (technology -> (correct, total))
+    quiz_results = per_skill
+
+    # Compute candidate features based on JD skill labels & grading
+    candidate_features = compute_candidate_features_from_grade(quiz_results, jd_map, LABEL_WEIGHTS)
+
+    # Load the persisted RandomForest hire model
+    rf_model = load_hire_model()
+    hire_decision = None
+    hire_probability_pct = None
+    if rf_model:
+        try:
+            df_feats = pd.DataFrame([candidate_features])
+            decision = int(rf_model.predict(df_feats)[0])
+            if hasattr(rf_model, "predict_proba"):
+                prob = float(rf_model.predict_proba(df_feats)[0][1])  # probability of class “1”
+            else:
+                prob = float(decision)
+            hire_decision = bool(decision)
+            hire_probability_pct = round(prob * 100, 1)
+        except Exception as e:
+            logger.warning("Hire model prediction failed: %s", e)
+    else:
+        logger.info("Skipping hire prediction because model could not be loaded.")
+
+    # Build summary / top skills
     top_skills = []
     total_percent = 0.0
     count = 0
@@ -334,7 +410,6 @@ async def evaluate(
         total_percent += pct
         count += 1
     top_skills.sort(key=lambda x: -x["percentage"])
-
     overall_avg = round(total_percent / count, 1) if count else 0.0
     selected = overall_avg >= 50.0
 
@@ -348,6 +423,14 @@ async def evaluate(
             padded_skill = skill_field.ljust(max_skill_len + 3)
             line = f"{padded_skill} {tuple_field},   # {round(pct)}%"
             lines.append(line)
+        if rf_model:
+            if hire_decision is not None:
+                sel_str = "Selected" if hire_decision else "Not Selected"
+                lines.append(f"Hire decision: {sel_str} ({hire_probability_pct}%)")
+            else:
+                lines.append("Hire decision: unavailable (prediction failed)")
+        else:
+            lines.append("Hire model missing; cannot produce hire decision.")
         body = "\n".join(lines)
         return PlainTextResponse(content=body, media_type="text/plain")
 
@@ -356,6 +439,8 @@ async def evaluate(
         "selected": selected,
         "average_percentage": overall_avg,
         "top_skills": top_skills,
-        "details": details,
+        # "details": details,
+        # "candidate_features": candidate_features,
+       
     }
     return response
